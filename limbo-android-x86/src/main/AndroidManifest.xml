@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.limbo.emu.plus"
+    android:versionCode="20003"
+    android:versionName="2.0.3-x86-debug">
+
+    <application
+        tools:replace="android:label"
+        android:label="Limbo Plus Enhanced x86"
+        >
+        <activity
+            android:name="com.limbo.emu.plus.LimboEmuActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+            android:label="Limbo Plus"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

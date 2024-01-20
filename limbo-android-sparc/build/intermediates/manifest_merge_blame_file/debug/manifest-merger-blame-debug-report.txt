@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.limbo.emu.plus.sparc"
+4    android:versionCode="60001"
+5    android:versionName="6.0.1-sparc" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-67
+11-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-80
+12-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-81
+13-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-79
+14-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-68
+15-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-65
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-76
+16-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+17-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-76
+17-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:22-73
+18    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+18-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-79
+18-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:22-76
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-66
+19-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-63
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-80
+20-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:22-77
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:5-77
+21-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:22-74
+22
+23    <uses-feature android:glEsVersion="0x00020000" />
+23-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-54
+23-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:19-51
+24
+25    <application
+25-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:8:5-23:19
+26        android:name="com.max2idea.android.limbo.main.LimboApplication"
+26-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-72
+27        android:allowBackup="true"
+27-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0e6a0866886ff86fb5fd3622254b9d57\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:hardwareAccelerated="true"
+30-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-43
+31        android:icon="@drawable/limbo"
+31-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-39
+32        android:label="Limbo SPARC Emulator"
+32-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:10:9-45
+33        android:largeHeap="true"
+33-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-33
+34        android:requestLegacyExternalStorage="true"
+34-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-52
+35        android:theme="@style/Theme.AppCompat" >
+35-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-47
+36        <activity
+36-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:12:9-22:20
+37            android:name="com.limbo.emu.plus.sparc.LimboEmuActivity"
+37-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:13:13-69
+38            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+38-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:14:13-170
+39            android:label="Limbo SPARC"
+39-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:15:13-40
+40            android:launchMode="singleTop"
+40-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:16:13-43
+41            android:theme="@style/Theme.AppCompat.NoActionBar" >
+41-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:17:13-63
+42            <intent-filter>
+42-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:18:13-21:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:19:17-69
+43-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:19:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:20:17-77
+45-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:20:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:44
+49            android:name="com.max2idea.android.limbo.main.LimboFileManager"
+49-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-76
+50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+50-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-170
+51            android:label="File Manager" />
+51-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-41
+52        <activity
+52-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-42:66
+53            android:name="com.max2idea.android.limbo.main.LimboSDLActivity"
+53-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-76
+54            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+54-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-170
+55            android:label="@string/app_name"
+55-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-45
+56            android:launchMode="singleTask"
+56-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-44
+57            android:theme="@style/Theme.AppCompat.NoActionBar" />
+57-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-63
+58        <activity
+58-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-46:40
+59            android:name="com.max2idea.android.limbo.main.LimboSettingsManager"
+59-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-80
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+60-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-170
+61            android:label="Settings" />
+61-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+62
+63        <service
+63-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-56:19
+64            android:name="com.max2idea.android.limbo.machine.MachineService"
+64-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-77
+65            android:enabled="true"
+65-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-35
+66            android:exported="false"
+66-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-37
+67            android:label="Limbo Service" >
+67-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-42
+68            <intent-filter>
+68-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-55:29
+69                <action android:name="com.max2idea.android.limbo.action.STARTVM" />
+69-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:17-84
+69-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:25-81
+70            </intent-filter>
+71        </service>
+72
+73        <provider
+73-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+74            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+75            android:authorities="com.limbo.emu.plus.sparc.lifecycle-process"
+75-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+76            android:exported="false"
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+77            android:multiprocess="true" />
+77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+78    </application>
+79
+80</manifest>

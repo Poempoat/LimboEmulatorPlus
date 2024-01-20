@@ -1,0 +1,334 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-59:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0a66865e62aaea95ffcab5a4afd7a5e0\transformed\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\liuji\.gradle\caches\transforms-3\a82703d178adee709df403a29e5b9511\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\5942a66bf6fa0d98ec71813651136aa5\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\b1825320ce1a770423501b2914abe3d8\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\a2e374c8e4fb2540c47348c788e607bb\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6cb10853f05f5c5afc370f9f4f985f4d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\9ed50d3b363f432a707e0900635f07af\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\0c6d879fa9b194052e08c4e3b53849e8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\acaf5115d7647c11b4f0173d6211f192\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\00374e8502dde6a579d09963da6745a2\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\e76ec00f6fc4ece2ff7881bd6ba1990b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\7cf2d96b341612174054df4fef90f272\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\2220b8ea7d9fa1eb22924383030985db\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\08d3267cd197b30b3223edfb2cf0005f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\liuji\.gradle\caches\transforms-3\65cc43b004d1019d22e121c1c0d9ca8a\transformed\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\4f37bcf1c6c3756d4d5e6f1674770625\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6afb9c7757448d595a61bf7f6c87eac8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\fe75697f666d1ef8c0bd2c1b5d0cee87\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\25fb3d47852b4d8832016b699d62441e\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\2a9e4fe8237ec63faf617c419cd0d491\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f1279c79f38775dacdac50d289fb5b9b\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\161d508340fd03b9331e8c9709169dcb\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\0d7a5e2c937aa7ef3a12b86d9b24b404\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c0f1a825bffb6c0adcd71abc512d2e41\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\fe999d778cf161143354d85f3102a8fd\transformed\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0e6a0866886ff86fb5fd3622254b9d57\transformed\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\525a5a19c2b0cf54e30d064b9e90713f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f64e15aea6071eced1c1860367485c9b\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f4be819ec396211b86a4cac712542d8b\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0db1a1df8882472f6ad86b9b9411adc2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\2d794cd390e060ff41ce405696c7954d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\c6ee67cacef68eba3648957a59d63902\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\4dd90f6fc4b8459132ec479c0b94f2fe\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\07ceaa35c79a0b0e9b32721dcf89fa1a\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\liuji\.gradle\caches\transforms-3\3abe0d8c57f4758e2d2bdcfdba62d077\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\ee523a48a727a82bfaa23a40cd04ec78\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\1b679ae9dd07bfd6712bebc79b7b86e8\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c69facbb0071587fcbdfd719a33d583d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c25fa4b8d888d2e9eb4be3f7e54ac2c5\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\51cc0daf5da52db4fc8b5b69278b9095\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6cc3f83fa4cc0ce57be52ddec4acd0a4\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\liuji\.gradle\caches\transforms-3\0520c65af1e83969ba0f61cbbfa3c2b7\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\liuji\.gradle\caches\transforms-3\741991c01a33674ec9546325d2dc293c\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:6:5-38
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:8:5-23:19
+MERGED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-57:19
+MERGED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-57:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0a66865e62aaea95ffcab5a4afd7a5e0\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0a66865e62aaea95ffcab5a4afd7a5e0\transformed\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\08d3267cd197b30b3223edfb2cf0005f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\08d3267cd197b30b3223edfb2cf0005f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0e6a0866886ff86fb5fd3622254b9d57\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0e6a0866886ff86fb5fd3622254b9d57\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0db1a1df8882472f6ad86b9b9411adc2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0db1a1df8882472f6ad86b9b9411adc2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\liuji\.gradle\caches\transforms-3\0520c65af1e83969ba0f61cbbfa3c2b7\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\liuji\.gradle\caches\transforms-3\0520c65af1e83969ba0f61cbbfa3c2b7\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+	android:requestLegacyExternalStorage
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0e6a0866886ff86fb5fd3622254b9d57\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:10:9-45
+	android:hardwareAccelerated
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-43
+	android:largeHeap
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-33
+	android:icon
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-39
+	android:allowBackup
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-47
+	tools:replace
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:9:9-38
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-72
+activity#com.limbo.emu.plus.sparc.LimboEmuActivity
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:12:9-22:20
+	android:label
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:15:13-40
+	android:launchMode
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:16:13-43
+	android:configChanges
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:14:13-170
+	android:theme
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:17:13-63
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:13:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+MERGED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0a66865e62aaea95ffcab5a4afd7a5e0\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0a66865e62aaea95ffcab5a4afd7a5e0\transformed\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\liuji\.gradle\caches\transforms-3\a82703d178adee709df403a29e5b9511\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\liuji\.gradle\caches\transforms-3\a82703d178adee709df403a29e5b9511\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\5942a66bf6fa0d98ec71813651136aa5\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\5942a66bf6fa0d98ec71813651136aa5\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\b1825320ce1a770423501b2914abe3d8\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\b1825320ce1a770423501b2914abe3d8\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\a2e374c8e4fb2540c47348c788e607bb\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\a2e374c8e4fb2540c47348c788e607bb\transformed\legacy-support-v13-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6cb10853f05f5c5afc370f9f4f985f4d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6cb10853f05f5c5afc370f9f4f985f4d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\9ed50d3b363f432a707e0900635f07af\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\9ed50d3b363f432a707e0900635f07af\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\0c6d879fa9b194052e08c4e3b53849e8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\0c6d879fa9b194052e08c4e3b53849e8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\acaf5115d7647c11b4f0173d6211f192\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\acaf5115d7647c11b4f0173d6211f192\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\00374e8502dde6a579d09963da6745a2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\00374e8502dde6a579d09963da6745a2\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\e76ec00f6fc4ece2ff7881bd6ba1990b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\e76ec00f6fc4ece2ff7881bd6ba1990b\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\7cf2d96b341612174054df4fef90f272\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\7cf2d96b341612174054df4fef90f272\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\2220b8ea7d9fa1eb22924383030985db\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\2220b8ea7d9fa1eb22924383030985db\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\08d3267cd197b30b3223edfb2cf0005f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\08d3267cd197b30b3223edfb2cf0005f\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\liuji\.gradle\caches\transforms-3\65cc43b004d1019d22e121c1c0d9ca8a\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\liuji\.gradle\caches\transforms-3\65cc43b004d1019d22e121c1c0d9ca8a\transformed\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\4f37bcf1c6c3756d4d5e6f1674770625\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\4f37bcf1c6c3756d4d5e6f1674770625\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6afb9c7757448d595a61bf7f6c87eac8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6afb9c7757448d595a61bf7f6c87eac8\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\fe75697f666d1ef8c0bd2c1b5d0cee87\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\fe75697f666d1ef8c0bd2c1b5d0cee87\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\25fb3d47852b4d8832016b699d62441e\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\25fb3d47852b4d8832016b699d62441e\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\2a9e4fe8237ec63faf617c419cd0d491\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\2a9e4fe8237ec63faf617c419cd0d491\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f1279c79f38775dacdac50d289fb5b9b\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f1279c79f38775dacdac50d289fb5b9b\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\161d508340fd03b9331e8c9709169dcb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\161d508340fd03b9331e8c9709169dcb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\0d7a5e2c937aa7ef3a12b86d9b24b404\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\0d7a5e2c937aa7ef3a12b86d9b24b404\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c0f1a825bffb6c0adcd71abc512d2e41\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c0f1a825bffb6c0adcd71abc512d2e41\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\fe999d778cf161143354d85f3102a8fd\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\fe999d778cf161143354d85f3102a8fd\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0e6a0866886ff86fb5fd3622254b9d57\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0e6a0866886ff86fb5fd3622254b9d57\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\525a5a19c2b0cf54e30d064b9e90713f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\525a5a19c2b0cf54e30d064b9e90713f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f64e15aea6071eced1c1860367485c9b\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f64e15aea6071eced1c1860367485c9b\transformed\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f4be819ec396211b86a4cac712542d8b\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\f4be819ec396211b86a4cac712542d8b\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0db1a1df8882472f6ad86b9b9411adc2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\liuji\.gradle\caches\transforms-3\0db1a1df8882472f6ad86b9b9411adc2\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\2d794cd390e060ff41ce405696c7954d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\2d794cd390e060ff41ce405696c7954d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\c6ee67cacef68eba3648957a59d63902\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\c6ee67cacef68eba3648957a59d63902\transformed\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\4dd90f6fc4b8459132ec479c0b94f2fe\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\4dd90f6fc4b8459132ec479c0b94f2fe\transformed\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\07ceaa35c79a0b0e9b32721dcf89fa1a\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\07ceaa35c79a0b0e9b32721dcf89fa1a\transformed\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\liuji\.gradle\caches\transforms-3\3abe0d8c57f4758e2d2bdcfdba62d077\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\liuji\.gradle\caches\transforms-3\3abe0d8c57f4758e2d2bdcfdba62d077\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\ee523a48a727a82bfaa23a40cd04ec78\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\ee523a48a727a82bfaa23a40cd04ec78\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\1b679ae9dd07bfd6712bebc79b7b86e8\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\1b679ae9dd07bfd6712bebc79b7b86e8\transformed\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c69facbb0071587fcbdfd719a33d583d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c69facbb0071587fcbdfd719a33d583d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c25fa4b8d888d2e9eb4be3f7e54ac2c5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\c25fa4b8d888d2e9eb4be3f7e54ac2c5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\51cc0daf5da52db4fc8b5b69278b9095\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\51cc0daf5da52db4fc8b5b69278b9095\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6cc3f83fa4cc0ce57be52ddec4acd0a4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\liuji\.gradle\caches\transforms-3\6cc3f83fa4cc0ce57be52ddec4acd0a4\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\liuji\.gradle\caches\transforms-3\0520c65af1e83969ba0f61cbbfa3c2b7\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\liuji\.gradle\caches\transforms-3\0520c65af1e83969ba0f61cbbfa3c2b7\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\liuji\.gradle\caches\transforms-3\741991c01a33674ec9546325d2dc293c\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\liuji\.gradle\caches\transforms-3\741991c01a33674ec9546325d2dc293c\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:22-74
+uses-feature#0x00020000
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:5-54
+	android:glEsVersion
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:19-51
+activity#com.max2idea.android.limbo.main.LimboFileManager
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:44
+	android:label
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-41
+	android:configChanges
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-170
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-76
+activity#com.max2idea.android.limbo.main.LimboSDLActivity
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-42:66
+	android:label
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-45
+	android:launchMode
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-44
+	android:configChanges
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-170
+	android:theme
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-63
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-76
+activity#com.max2idea.android.limbo.main.LimboSettingsManager
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-46:40
+	android:label
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+	android:configChanges
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-170
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-80
+service#com.max2idea.android.limbo.machine.MachineService
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-56:19
+	android:enabled
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-35
+	android:label
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-42
+	android:exported
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-77
+intent-filter#action:name:com.max2idea.android.limbo.action.STARTVM
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-55:29
+action#com.max2idea.android.limbo.action.STARTVM
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:17-84
+	android:name
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:25-81
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\liuji\.gradle\caches\transforms-3\92c90105d5590ee56e17966b7175bb8c\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79

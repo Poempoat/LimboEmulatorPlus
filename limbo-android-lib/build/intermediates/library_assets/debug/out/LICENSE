@@ -1,0 +1,6 @@
+Limbo Plus 你知道吗？（简体中文/zh_CN）
+* English documentation does not support
+1.你知道吗？将磁盘缓存设为writebake再配合virtio磁盘性能最佳！
+2.你知道吗？如果usb-tablet无法使用，可以在“高级”中选择USB控制器！
+3.你知道吗？如果性能不佳，可以关闭“启用AVX”并开启CPU优化！
+4.你知道吗？我是有多无聊才在写这个文档
