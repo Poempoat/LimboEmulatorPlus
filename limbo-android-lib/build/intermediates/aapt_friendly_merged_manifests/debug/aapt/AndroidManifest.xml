@@ -29,11 +29,12 @@
         android:icon="@drawable/limbo"
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/limbo_circle"
         android:theme="@style/Theme.AppCompat" >
         <activity
             android:name="com.max2idea.android.limbo.main.LimboFileManager"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
-            android:label="File Manager" />
+            android:label="@string/filemanager" />
         <activity
             android:name="com.max2idea.android.limbo.main.LimboSDLActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
@@ -43,13 +44,13 @@
         <activity
             android:name="com.max2idea.android.limbo.main.LimboSettingsManager"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
-            android:label="Settings" />
+            android:label="@string/Settings" />
 
         <service
             android:name="com.max2idea.android.limbo.machine.MachineService"
             android:enabled="true"
             android:exported="false"
-            android:label="Limbo Service" >
+            android:label="@string/limboservice" >
             <intent-filter>
                 <action android:name="com.max2idea.android.limbo.action.STARTVM" />
             </intent-filter>

@@ -60,6 +60,7 @@ import androidx.core.widget.NestedScrollView;
 
 import com.limbo.emu.lib.R;
 import com.max2idea.android.limbo.dialog.DialogUtils;
+import com.max2idea.android.limbo.downloads.Downloads;
 import com.max2idea.android.limbo.files.FileInstaller;
 import com.max2idea.android.limbo.files.FileUtils;
 import com.max2idea.android.limbo.help.Help;
@@ -104,13 +105,15 @@ public class LimboActivity extends AppCompatActivity
     private static final int EXPORT = 4;
     private static final int IMPORT = 5;
     private static final int CHANGELOG = 6;
+
     private static final int LICENSE = 7;
-    private static final int VIEWLOG = 8;
-    private static final int CREATE = 9;
-    private static final int DISCARD_VM_STATE = 11;
-    private static final int SETTINGS = 13;
-    private static final int TOOLS = 14;
-    private static final int IMPORT_BIOS_FILE = 15;
+    private static final int DOWNLOAD = 8;
+    private static final int VIEWLOG = 9;
+    private static final int CREATE = 10;
+    private static final int DISCARD_VM_STATE = 12;
+    private static final int SETTINGS = 14;
+    private static final int TOOLS = 15;
+    private static final int IMPORT_BIOS_FILE = 16;
 
     // disk mapping
     private static final Hashtable<FileType, DiskInfo> diskMapping = new Hashtable<>();
@@ -1219,7 +1222,7 @@ public class LimboActivity extends AppCompatActivity
             ab.setDisplayHomeAsUpEnabled(true);
             ab.setDisplayShowCustomEnabled(true);
             ab.setDisplayShowTitleEnabled(true);
-            ab.setTitle(R.string.app_name);
+            ab.setTitle(R.string.app_short_name);
         }
     }
 
@@ -2694,6 +2697,7 @@ public class LimboActivity extends AppCompatActivity
         menu.add(0, VIEWLOG, 0, R.string.ViewLog).setIcon(android.R.drawable.ic_menu_view);
         menu.add(0, HELP, 0, R.string.help).setIcon(R.drawable.help);
         menu.add(0, CHANGELOG, 0, R.string.Changelog).setIcon(android.R.drawable.ic_menu_help);
+        menu.add(0, DOWNLOAD, 0, R.string.Downloads).setIcon(android.R.drawable.ic_menu_help);
         menu.add(0, LICENSE, 0, R.string.License).setIcon(android.R.drawable.ic_menu_help);
         menu.add(0, QUIT, 0, R.string.Exit).setIcon(android.R.drawable.ic_lock_power_off);
 
@@ -2727,6 +2731,8 @@ public class LimboActivity extends AppCompatActivity
             BIOSImporter.promptImportBIOSFile(this);
         } else if (item.getItemId() == HELP) {
             Help.showHelp(this);
+        } else if (item.getItemId() == DOWNLOAD) {
+            Downloads.showDownloads(this);
         } else if (item.getItemId() == VIEWLOG) {
             Logger.viewLimboLog(LimboActivity.this);
         } else if (item.getItemId() == CHANGELOG) {
@@ -2947,6 +2953,9 @@ public class LimboActivity extends AppCompatActivity
     public void notifyAction(MachineAction action, Object value) {
         if (viewListener != null)
             viewListener.onAction(action, value);
+    }
+
+    protected void onCreate() {
     }
 
     static class DiskInfo {

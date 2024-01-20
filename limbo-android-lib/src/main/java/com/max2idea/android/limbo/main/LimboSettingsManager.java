@@ -393,4 +393,9 @@ public class LimboSettingsManager extends PreferenceActivity {
         return prefs.getBoolean("ignoreBreakpointInvalidation", false);
     }
 
+    public static boolean getForceSimplifiedChinese(Context context) {
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        return prefs.getBoolean("ForceSimplifiedChinese", false);
+    }
+
 }

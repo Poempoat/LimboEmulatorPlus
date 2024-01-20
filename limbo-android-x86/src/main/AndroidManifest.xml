@@ -7,7 +7,7 @@
 
     <application
         tools:replace="android:label"
-        android:label="Limbo Plus Enhanced x86"
+        android:label="Limbo Emulator Plus x86"
         >
         <activity
             android:name="com.limbo.emu.plus.LimboEmuActivity"

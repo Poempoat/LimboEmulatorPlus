@@ -1451,6 +1451,8 @@ int drawable ic_clear_black_24dp 0x0
 int drawable ic_edit_black_24dp 0x0
 int drawable ic_keyboard_arrow_left_black_24dp 0x0
 int drawable ic_keyboard_arrow_right_black_24dp 0x0
+int drawable ic_launcher_background 0x0
+int drawable ic_launcher_foreground 0x0
 int drawable ic_menu_arrow_down_black_24dp 0x0
 int drawable ic_menu_arrow_up_black_24dp 0x0
 int drawable ic_mtrl_checked_circle 0x0
@@ -1461,6 +1463,7 @@ int drawable importvms 0x0
 int drawable install 0x0
 int drawable keyboard 0x0
 int drawable limbo 0x0
+int drawable limbo_circle 0x0
 int drawable machinetype 0x0
 int drawable mouse 0x0
 int drawable mtrl_dialog_background 0x0
@@ -1658,6 +1661,7 @@ int id design_menu_item_text 0x0
 int id design_navigation_view 0x0
 int id dialog 0x0
 int id dialog_button 0x0
+int id dn_list 0x0
 int id dnsStr 0x0
 int id dnsl 0x0
 int id dnsval 0x0
@@ -2085,6 +2089,7 @@ int layout design_text_input_start_icon 0x0
 int layout dev_dialog 0x0
 int layout dir_row 0x0
 int layout directory_list 0x0
+int layout dn_links 0x0
 int layout expand_button 0x0
 int layout graphics_layout 0x0
 int layout image_frame 0x0
@@ -2175,6 +2180,8 @@ int layout text_view_with_theme_line_height 0x0
 int layout text_view_without_line_height 0x0
 int layout userinterface_layout 0x0
 int menu sdlactivitymenu 0x0
+int mipmap ic_launcher 0x0
+int mipmap ic_launcher_round 0x0
 int plurals mtrl_badge_content_description 0x0
 int raw arm_cpu 0x0
 int raw arm_machine_types 0x0
@@ -2239,8 +2246,11 @@ int string DisplayMode 0x0
 int string DisplayResolutionHighWarning 0x0
 int string DoNotShowAgain 0x0
 int string DoYouWantToContinue 0x0
+int string Download 0x0
 int string DownloadISOAndVirtualHDDImages 0x0
+int string Downloads 0x0
 int string DownloadsOSes 0x0
+int string DownloadsText 0x0
 int string EjectedDevice 0x0
 int string Enable 0x0
 int string EnableAaudio 0x0
@@ -2275,6 +2285,8 @@ int string FileExistsChooseAnotherFilename 0x0
 int string FilePathNotSupportedWarning 0x0
 int string Files 0x0
 int string FitToScreenDisableDesktopMode 0x0
+int string ForceSimplifiedChinese 0x0
+int string ForceSimplifiedChineseSummary 0x0
 int string FullAccessWarning 0x0
 int string GenNewVersion 0x0
 int string GoToWiki 0x0
@@ -2365,6 +2377,7 @@ int string StretchScreenDisabledDesktopMode 0x0
 int string Suspended 0x0
 int string TAPHelp 0x0
 int string TapDeviceFound 0x0
+int string Telegram 0x0
 int string TooManyKeysButtons 0x0
 int string TouchScreen 0x0
 int string TouchScreenTitle 0x0
@@ -2387,6 +2400,7 @@ int string Volume 0x0
 int string Warning 0x0
 int string WriteAccess 0x0
 int string Yes 0x0
+int string Yukaidi 0x0
 int string abc_action_bar_home_description 0x0
 int string abc_action_bar_up_description 0x0
 int string abc_action_menu_overflow_description 0x0
@@ -2506,6 +2520,7 @@ int string failToCreateMachineDirError 0x0
 int string faq 0x0
 int string fda 0x0
 int string fdb 0x0
+int string filemanager 0x0
 int string fit_to_screen 0x0
 int string fiveByTen 0x0
 int string fixes 0x0
@@ -2552,6 +2567,9 @@ int string keyPressDelay 0x0
 int string keyPressDelaySummary 0x0
 int string keyboard 0x0
 int string keys_caption 0x0
+int string language 0x0
+int string lanzou 0x0
+int string limboservice 0x0
 int string linksInstructions 0x0
 int string list_caption 0x0
 int string list_name_caption 0x0

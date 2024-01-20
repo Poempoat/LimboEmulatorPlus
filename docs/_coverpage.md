@@ -13,7 +13,7 @@
 - Support Chinese
 
 [GitHub](https://github.com/Poempoat/LimboEmulatorPlus)
-[Download](https://github.com/Poempoat/LimboEmulatorPlus/releases)
+[Download](#downloads)
 [Get Started](#docsify)
 
 ![](bg.png)

@@ -279,9 +279,9 @@ ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo
 	android:glEsVersion
 		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:19-51
 activity#com.max2idea.android.limbo.main.LimboFileManager
-ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:44
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:51
 	android:label
-		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-41
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-48
 	android:configChanges
 		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-170
 	android:name
@@ -299,9 +299,9 @@ ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo
 	android:name
 		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-76
 activity#com.max2idea.android.limbo.main.LimboSettingsManager
-ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-46:40
+ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-46:48
 	android:label
-		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-45
 	android:configChanges
 		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-170
 	android:name
@@ -311,7 +311,7 @@ ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo
 	android:enabled
 		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-35
 	android:label
-		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-42
+		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-49
 	android:exported
 		ADDED from [:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-37
 	android:name

@@ -1678,6 +1678,7 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id dn_list
 id dnsStr
 id dnsl
 id dnsval
@@ -2131,6 +2132,7 @@ layout design_text_input_start_icon
 layout dev_dialog
 layout dir_row
 layout directory_list
+layout dn_links
 layout expand_button
 layout graphics_layout
 layout image_frame
@@ -2287,8 +2289,11 @@ string DisplayMode
 string DisplayResolutionHighWarning
 string DoNotShowAgain
 string DoYouWantToContinue
+string Download
 string DownloadISOAndVirtualHDDImages
+string Downloads
 string DownloadsOSes
+string DownloadsText
 string EjectedDevice
 string Enable
 string EnableAaudio
@@ -2323,6 +2328,8 @@ string FileExistsChooseAnotherFilename
 string FilePathNotSupportedWarning
 string Files
 string FitToScreenDisableDesktopMode
+string ForceSimplifiedChinese
+string ForceSimplifiedChineseSummary
 string FullAccessWarning
 string GenNewVersion
 string GoToWiki
@@ -2413,6 +2420,7 @@ string StretchScreenDisabledDesktopMode
 string Suspended
 string TAPHelp
 string TapDeviceFound
+string Telegram
 string TooManyKeysButtons
 string TouchScreen
 string TouchScreenTitle
@@ -2435,6 +2443,7 @@ string Volume
 string Warning
 string WriteAccess
 string Yes
+string Yukaidi
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2554,6 +2563,7 @@ string failToCreateMachineDirError
 string faq
 string fda
 string fdb
+string filemanager
 string fit_to_screen
 string fiveByTen
 string fixes
@@ -2600,6 +2610,9 @@ string keyPressDelay
 string keyPressDelaySummary
 string keyboard
 string keys_caption
+string language
+string lanzou
+string limboservice
 string linksInstructions
 string list_caption
 string list_name_caption

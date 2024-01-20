@@ -138,8 +138,11 @@
     <string name="DisplayResolutionHighWarning">Display resolution is too high, mouse position is incorrect!</string>
     <string name="DoNotShowAgain">Do not Show Again</string>
     <string name="DoYouWantToContinue">Do you want to continue?</string>
+    <string name="Download">Download</string>
     <string name="DownloadISOAndVirtualHDDImages">Download ISO and Virtual HDD Images</string>
+    <string name="Downloads">Downloads</string>
     <string name="DownloadsOSes">Downloads OSes</string>
+    <string name="DownloadsText">You can download the latest version of Limbo Emulator Plus from multiple sources.</string>
     <string name="EjectedDevice">Ejected device</string>
     <string name="Enable">Enable</string>
     <string name="EnableAaudio">Enable Aaudio</string>
@@ -174,9 +177,11 @@
     <string name="FilePathNotSupportedWarning">File path is not supported. Make sure you choose a file/directory from your internal storage or external sd card. Root and Download Directories are not supported.</string>
     <string name="Files">Files</string>
     <string name="FitToScreenDisableDesktopMode">Fit to Screen Disabled under Desktop Mode</string>
+    <string name="ForceSimplifiedChinese">Forcibly switch the display language to Simplified Chinese</string>
+    <string name="ForceSimplifiedChineseSummary">Force Simplified Chinese</string>
     <string name="FullAccessWarning">Warning! Providing FULL ACCESS to the write disk is discouraged!\n\nYou either request for Shared Access to the local drive or your device does not have Android Storage Framework implemented. If you understand the risks press OK to continue</string>
     <string name="GenNewVersion">Get New Version</string>
-    <string name="GoToWiki">Github</string>
+    <string name="GoToWiki">Website</string>
     <string name="HighPriority">High Priority</string>
     <string name="HostForward">Host Forward:</string>
     <string name="IAcknowledge">I Acknowledge</string>
@@ -200,7 +205,7 @@
     <string name="KeyMapperName">Key Mapper Name</string>
     <string name="Landscape">Landscape</string>
     <string name="LandscapeReverse">Landscape Reverse</string>
-    <string name="License">Do U Know?</string>
+    <string name="License">License</string>
     <string name="LimboLog">Limbo Plus Log</string>
     <string name="LogWarning">Something happened during last run, do you want to see the log?</string>
     <string name="LogfileSaved">Logfile saved</string>
@@ -264,6 +269,7 @@
     <string name="Suspended">Suspended</string>
     <string name="TAPHelp">TAP Help</string>
     <string name="TapDeviceFound">TAP Device found</string>
+    <string name="Telegram" translatable="false">Telegram</string>
     <string name="TooManyKeysButtons">Too many keys/buttons</string>
     <string name="TouchScreen">Touchscreen (Tablet)</string>
     <string name="TouchScreenTitle">Touchscreen</string>
@@ -286,6 +292,7 @@
     <string name="Warning">Warning</string>
     <string name="WriteAccess">Write Access</string>
     <string name="Yes">Yes</string>
+    <string name="Yukaidi" translatable="false">Yukaidi</string>
     <string name="absolutePointerInstructions">Make sure the guest os supports touch screen devices!\n\n \
         Choose Mouse = \"usb-tablet\" from Limbo Plus before you boot the machine.</string>
     <string name="add_keymapper">Add Key Mapper</string>
@@ -294,7 +301,7 @@
     <string name="advanced">Advanced</string>
     <string name="advancedTools">Advanced Tools</string>
     <string name="alt_check" translatable="false">Alt</string>
-    <string name="app_name">Limbo Plus Enhanced x86</string>
+    <string name="app_name" translatable="false">Limbo Emulator Plus x86</string>
     <string name="app_short_name" translatable="false">Limbo Plus</string>
     <string name="append">Append:</string>
     <string name="arrow_down">Down Arrow</string>
@@ -366,6 +373,7 @@
     <string name="faq">FAQ</string>
     <string name="fda">Floppy A:</string>
     <string name="fdb">Floppy B:</string>
+    <string name="filemanager">File Manager</string>
     <string name="fit_to_screen">Fit to Screen</string>
     <string name="fiveByTen" translatable="false">5x10</string>
     <string name="fixes">Fixes</string>
@@ -410,6 +418,9 @@
     <string name="keyPressDelaySummary">Delay between keyboard keys pressed. Lower values have better performance but key events might be not be understood by the emulator so use higher values.</string>
     <string name="keyboard">Keyboard</string>
     <string name="keys_caption">Keys</string>
+    <string name="language">Language</string>
+    <string name="lanzou">Lanzou</string>
+    <string name="limboservice">Limbo Plus Service</string>
     <string name="linksInstructions">Get Full Qwerty Keyboard, Download Manager for ISO and virtual disks images, SSH/FTP Client for network connection</string>
     <string name="list_caption">List</string>
     <string name="list_name_caption">List Name</string>

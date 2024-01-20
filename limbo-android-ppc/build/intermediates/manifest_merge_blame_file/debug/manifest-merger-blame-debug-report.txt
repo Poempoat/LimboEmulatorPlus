@@ -93,13 +93,13 @@
 46            </intent-filter>
 47        </activity>
 48        <activity
-48-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:44
+48-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:51
 49            android:name="com.max2idea.android.limbo.main.LimboFileManager"
 49-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-76
 50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
 50-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-170
-51            android:label="File Manager" />
-51-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-41
+51            android:label="@string/filemanager" />
+51-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-48
 52        <activity
 52-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-42:66
 53            android:name="com.max2idea.android.limbo.main.LimboSDLActivity"
@@ -113,13 +113,13 @@
 57            android:theme="@style/Theme.AppCompat.NoActionBar" />
 57-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-63
 58        <activity
-58-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-46:40
+58-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-46:48
 59            android:name="com.max2idea.android.limbo.main.LimboSettingsManager"
 59-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-80
 60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
 60-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-170
-61            android:label="Settings" />
-61-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+61            android:label="@string/Settings" />
+61-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-45
 62
 63        <service
 63-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-56:19
@@ -129,8 +129,8 @@
 65-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-35
 66            android:exported="false"
 66-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-37
-67            android:label="Limbo Service" >
-67-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-42
+67            android:label="@string/limboservice" >
+67-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-49
 68            <intent-filter>
 68-->[:limbo-android-lib] C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-55:29
 69                <action android:name="com.max2idea.android.limbo.action.STARTVM" />

@@ -74,14 +74,16 @@ public class Config {
     // App config
     public static final String APP_NAME = "Limbo Emulator";
 
-    public static final String defaultDNSServer = "114.114.114.114";
+    public static final String defaultDNSServer = "1.1.1.1";
     // App Config
     public static final String downloadLink = "https://github.com/limboemu/limbo/wiki/Downloads";
-    public static final String guidesLink = "https://github.com/Poempoat/limboPlus";
+
+    public static final String dnLinks = "https://limboplus.xtzyj.top/#/?id=downloads";
+    public static final String guidesLink = "https://limboplus.xtzyj.top";
     public static final String kvmLink = "https://github.com/limboemu/limbo/wiki/KVM";
     public static final String faqLink = "https://github.com/limboemu/limbo/wiki/FAQ";
     public static final String toolsLink = "https://github.com/limboemu/limbo/wiki/Tools";
-    public static final String newVersionLink = "https://raw.githubusercontent.com/Poempoat/limboPlus/master/VERSION";
+    public static final String newVersionLink = "https://raw.githubusercontent.com/Poempoat/LimboEmulator/Plus/master/VERSION";
     public static final String otherOSLink = "https://github.com/limboemu/limbo/wiki/Other-Operating-Systems";
 
     public static final boolean enableKeyboardLayoutOption = true;
@@ -171,6 +173,7 @@ public class Config {
     public static boolean enableMTTCG = true;
 
     public static LinkedHashMap<String, LinksManager.LinkInfo> osImages = new LinkedHashMap<>();
+
     public static boolean processMouseHistoricalEvents = false;
 
     //Change to true in prod if you want to be notified by default for new versions

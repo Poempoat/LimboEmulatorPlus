@@ -1452,6 +1452,8 @@ drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
+drawable ic_launcher_background
+drawable ic_launcher_foreground
 drawable ic_menu_arrow_down_black_24dp
 drawable ic_menu_arrow_up_black_24dp
 drawable ic_mtrl_checked_circle
@@ -1462,6 +1464,7 @@ drawable importvms
 drawable install
 drawable keyboard
 drawable limbo
+drawable limbo_circle
 drawable machinetype
 drawable mouse
 drawable mtrl_dialog_background
@@ -1659,6 +1662,7 @@ id design_menu_item_text
 id design_navigation_view
 id dialog
 id dialog_button
+id dn_list
 id dnsStr
 id dnsl
 id dnsval
@@ -2086,6 +2090,7 @@ layout design_text_input_start_icon
 layout dev_dialog
 layout dir_row
 layout directory_list
+layout dn_links
 layout expand_button
 layout graphics_layout
 layout image_frame
@@ -2176,6 +2181,8 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout userinterface_layout
 menu sdlactivitymenu
+mipmap ic_launcher
+mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw arm_cpu
 raw arm_machine_types
@@ -2240,8 +2247,11 @@ string DisplayMode
 string DisplayResolutionHighWarning
 string DoNotShowAgain
 string DoYouWantToContinue
+string Download
 string DownloadISOAndVirtualHDDImages
+string Downloads
 string DownloadsOSes
+string DownloadsText
 string EjectedDevice
 string Enable
 string EnableAaudio
@@ -2276,6 +2286,8 @@ string FileExistsChooseAnotherFilename
 string FilePathNotSupportedWarning
 string Files
 string FitToScreenDisableDesktopMode
+string ForceSimplifiedChinese
+string ForceSimplifiedChineseSummary
 string FullAccessWarning
 string GenNewVersion
 string GoToWiki
@@ -2366,6 +2378,7 @@ string StretchScreenDisabledDesktopMode
 string Suspended
 string TAPHelp
 string TapDeviceFound
+string Telegram
 string TooManyKeysButtons
 string TouchScreen
 string TouchScreenTitle
@@ -2388,6 +2401,7 @@ string Volume
 string Warning
 string WriteAccess
 string Yes
+string Yukaidi
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2507,6 +2521,7 @@ string failToCreateMachineDirError
 string faq
 string fda
 string fdb
+string filemanager
 string fit_to_screen
 string fiveByTen
 string fixes
@@ -2553,6 +2568,9 @@ string keyPressDelay
 string keyPressDelaySummary
 string keyboard
 string keys_caption
+string language
+string lanzou
+string limboservice
 string linksInstructions
 string list_caption
 string list_name_caption

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Limbo Emulator Plus x86</string>
+    <string name="app_short_name">Limbo Plus x86</string>
+    <string name="DebianLinux">Debian Linux</string>
+    <string name="DebianLinuxDescr">一个活跃的基于 Linux 的开源操作系统，具有桌面 GUI、音频、网络</string>
+    <string name="Ubuntu">Ubuntu</string>
+    <string name="UbuntuDescr">Ubuntu是基于Debian的Linux操作系统，以其用户友好的界面和开源基础而闻名</string>
+    <string name="Windows">Windows</string>
+    <string name="WindowsDescr">Windows是由微软开发的广泛使用的操作系统，以其图形用户界面和与软件、硬件的广泛兼容性而著称</string>
+    <string name="DSLLinux">DSL Linux</string>
+    <string name="DSLLinuxDescr">An old open source light-weight OS with desktop gui, audio, network</string>
+    <string name="Trinux">Trinux</string>
+    <string name="TrinuxDescr">An old open source command line OS with command line, audio, network</string>
+    <string name="Freedos">FreeDOS</string>
+    <string name="FreedosDescr">An active DOS compatible open source OS with command line, audio, network</string>
+    <string name="KolibriOS">KolibriOS</string>
+    <string name="KolibriOSDescr">A ultra light weight open source OS with desktop gui, audio, network</string>
+    <string name="SlaxLinux">Slax Linux</string>
+    <string name="SlaxLinuxDescr">An active open source OS with desktop gui, audio, network</string>
+    <string name="SlitazLinux">Slitaz Linux</string>
+    <string name="SlitazLinuxDescr">An active open source OS with desktop gui, audio, network</string>
+
+</resources>
