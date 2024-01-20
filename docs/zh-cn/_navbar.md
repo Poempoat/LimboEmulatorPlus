@@ -8,4 +8,5 @@
   * [邮箱](mailto:liujiayou2008@163.com)
   * [Telegram](https://t.me/limbopluschat)
 
-* [TG频道](https://t.me/limboemuplus)
+* 更多
+  * [Telegram频道](https://t.me/limboemuplus)
