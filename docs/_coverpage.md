@@ -2,7 +2,8 @@
 
 ![logo](/favicon.ico)
 
-# Limbo Emulator Plus <small>3.0.0</small>
+# Limbo Emulator Plus <small>2.0.2</small>
+
 > A secondary development version of Limbo Emulator.
 
 - More refined UI
