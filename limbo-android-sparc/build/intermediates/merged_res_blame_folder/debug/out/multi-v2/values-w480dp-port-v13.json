@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-sparc\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+            "outputFile": "com.limbo.emu.plus.sparc.limbo-android-sparc-mergeDebugResources-16:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\0a66865e62aaea95ffcab5a4afd7a5e0\\transformed\\material-1.1.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\06c2fdf36b8499c2eb181b1d4442d719\\transformed\\material-1.1.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

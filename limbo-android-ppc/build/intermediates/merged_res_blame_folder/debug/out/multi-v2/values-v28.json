@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-ppc\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "com.limbo.emu.plus.ppc.limbo-android-ppc-mergeDebugResources-16:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\0a66865e62aaea95ffcab5a4afd7a5e0\\transformed\\material-1.1.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\06c2fdf36b8499c2eb181b1d4442d719\\transformed\\material-1.1.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\5942a66bf6fa0d98ec71813651136aa5\\transformed\\appcompat-1.1.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\4a3bd1f31f14ccae1d711d08d9fc88f2\\transformed\\appcompat-1.1.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -26,10 +26,10 @@
                     "to": {
                         "startLines": "10,11,12,16",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "755,830,917,1147",
+                        "startOffsets": "755,830,917,1097",
                         "endLines": "10,11,15,19",
                         "endColumns": "74,86,12,12",
-                        "endOffsets": "825,912,1142,1384"
+                        "endOffsets": "825,912,1092,1284"
                     }
                 }
             ]

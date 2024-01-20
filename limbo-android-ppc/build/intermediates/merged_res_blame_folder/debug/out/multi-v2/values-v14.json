@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-ppc\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "com.limbo.emu.plus.ppc.limbo-android-ppc-mergeDebugResources-16:/values-v14/values-v14.xml",
             "map": [
                 {
                     "source": "C:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-ppc\\src\\main\\res\\values-v14\\styles.xml",
@@ -19,7 +19,7 @@
                         "startOffsets": "55",
                         "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "201"
+                        "endOffsets": "152"
                     }
                 }
             ]

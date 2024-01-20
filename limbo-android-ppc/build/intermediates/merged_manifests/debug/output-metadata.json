@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "artifactType": {
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
@@ -10,9 +10,11 @@
     {
       "type": "SINGLE",
       "filters": [],
+      "attributes": [],
       "versionCode": 60001,
       "versionName": "6.0.1-ppc",
       "outputFile": "AndroidManifest.xml"
     }
-  ]
+  ],
+  "elementType": "File"
 }

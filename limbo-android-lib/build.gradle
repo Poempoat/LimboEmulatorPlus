@@ -2,7 +2,6 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion '29.0.3'
 
     defaultConfig{
         minSdkVersion 21
@@ -17,6 +16,7 @@ android {
             jniDebuggable true
         }
     }
+    namespace 'com.limbo.emu.lib'
 
 //    externalNativeBuild {
 //        ndkBuild {

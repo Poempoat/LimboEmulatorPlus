@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion '29.0.3'
 
     defaultConfig {
         applicationId "com.limbo.emu.plus"
@@ -19,15 +18,16 @@ android {
             jniDebuggable true
         }
     }
-    lintOptions {
-        abortOnError false
-        disable 'MissingTranslation'
-    }
 
     sourceSets {
         main {
             jniLibs.srcDirs = ['src/plus/jniLibs']
         }
+    }
+    namespace 'com.limbo.emu.plus'
+    lint {
+        abortOnError false
+        disable 'MissingTranslation'
     }
 
 }

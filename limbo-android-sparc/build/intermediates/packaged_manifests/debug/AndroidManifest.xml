@@ -32,6 +32,7 @@
         android:label="Limbo SPARC Emulator"
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/limbo_circle"
         android:theme="@style/Theme.AppCompat" >
         <activity
             android:name="com.limbo.emu.plus.sparc.LimboEmuActivity"

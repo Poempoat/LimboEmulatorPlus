@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "artifactType": {
     "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",
     "kind": "Directory"
@@ -10,7 +10,9 @@
     {
       "type": "SINGLE",
       "filters": [],
+      "attributes": [],
       "outputFile": "AndroidManifest.xml"
     }
-  ]
+  ],
+  "elementType": "File"
 }

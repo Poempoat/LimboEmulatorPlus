@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "com.limbo.emu.plus.sparc"
@@ -17,14 +16,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-    lintOptions {
-        abortOnError false
-        disable 'MissingTranslation'
-    }
     sourceSets {
         main {
             jniLibs.srcDirs = ['src/plus/jniLibs']
         }
+    }
+    namespace 'com.limbo.emu.plus.sparc'
+    lint {
+        abortOnError false
+        disable 'MissingTranslation'
     }
 }
 

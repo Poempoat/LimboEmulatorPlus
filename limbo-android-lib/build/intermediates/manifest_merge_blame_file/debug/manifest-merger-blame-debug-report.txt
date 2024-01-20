@@ -4,114 +4,111 @@
 4    package="com.limbo.emu.lib"
 5    android:installLocation="auto" >
 6
-7    <uses-sdk
-8        android:minSdkVersion="21"
-8-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
-9-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
-10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:8:5-67
-11-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:8:22-64
-12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:9:5-80
-12-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:9:22-77
-13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-13-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:10:5-81
-13-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:10:22-78
-14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:11:5-79
-14-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:11:22-76
-15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:12:5-68
-15-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:12:22-65
-16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-16-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:13:5-76
-16-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:13:22-73
-17    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-17-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:14:5-76
-17-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:14:22-73
-18    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-18-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:15:5-79
-18-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:15:22-76
-19    <uses-permission android:name="android.permission.VIBRATE" />
-19-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:16:5-66
-19-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:16:22-63
-20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-20-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:17:5-80
-20-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:17:22-77
-21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-21-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:18:5-77
-21-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:18:22-74
+7    <uses-sdk android:minSdkVersion="21" />
+7-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:7:5-67
+9-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:7:22-64
+10    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+10-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:8:5-80
+10-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:8:22-77
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:9:5-81
+11-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:9:22-78
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:10:5-79
+12-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:11:5-68
+13-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:11:22-65
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:12:5-76
+14-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:12:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:13:5-76
+15-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:13:22-73
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+16-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:14:5-79
+16-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:14:22-76
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:15:5-66
+17-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:15:22-63
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:16:5-80
+18-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:16:22-77
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:17:5-77
+19-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:17:22-74
+20
+21    <uses-feature android:glEsVersion="0x00020000" />
+21-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:18:5-54
+21-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:18:19-51
 22
-23    <uses-feature android:glEsVersion="0x00020000" />
-23-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:19:5-54
-23-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:19:19-51
-24
-25    <application
-25-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:21:5-54:19
-26        android:name="com.max2idea.android.limbo.main.LimboApplication"
-26-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:22:9-72
-27        android:allowBackup="true"
-27-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:23:9-35
-28        android:hardwareAccelerated="true"
-28-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:24:9-43
-29        android:icon="@drawable/limbo"
-29-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:25:9-39
-30        android:largeHeap="true"
-30-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:27:9-33
-31        android:requestLegacyExternalStorage="true"
-31-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:28:9-52
-32        android:roundIcon="@drawable/limbo_circle"
-32-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:26:9-51
-33        android:theme="@style/Theme.AppCompat" >
-33-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:29:9-47
-34        <activity
-34-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:31:9-34:51
-35            android:name="com.max2idea.android.limbo.main.LimboFileManager"
-35-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:32:13-76
-36            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
-36-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:33:13-170
-37            android:label="@string/filemanager" />
-37-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:34:13-48
-38        <activity
-38-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:35:9-40:66
-39            android:name="com.max2idea.android.limbo.main.LimboSDLActivity"
-39-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:36:13-76
-40            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
-40-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:37:13-170
-41            android:label="@string/app_name"
-41-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:38:13-45
-42            android:launchMode="singleTask"
-42-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:39:13-44
-43            android:theme="@style/Theme.AppCompat.NoActionBar" />
-43-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:40:13-63
-44        <activity
-44-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:41:9-44:48
-45            android:name="com.max2idea.android.limbo.main.LimboSettingsManager"
-45-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:42:13-80
-46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
-46-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:43:13-170
-47            android:label="@string/Settings" />
-47-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:44:13-45
-48
-49        <service
-49-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:45:9-53:19
-50            android:name="com.max2idea.android.limbo.machine.MachineService"
-50-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:46:13-77
-51            android:enabled="true"
-51-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:47:13-35
-52            android:exported="false"
-52-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:48:13-37
-53            android:label="@string/limboservice" >
-53-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:49:13-49
-54            <intent-filter>
-54-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:50:13-52:29
-55                <action android:name="com.max2idea.android.limbo.action.STARTVM" />
-55-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:51:17-84
-55-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:51:25-81
-56            </intent-filter>
-57        </service>
-58    </application>
-59
-60</manifest>
+23    <application
+23-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:20:5-53:19
+24        android:name="com.max2idea.android.limbo.main.LimboApplication"
+24-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:21:9-72
+25        android:allowBackup="true"
+25-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:22:9-35
+26        android:hardwareAccelerated="true"
+26-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:23:9-43
+27        android:icon="@drawable/limbo"
+27-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:24:9-39
+28        android:largeHeap="true"
+28-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:26:9-33
+29        android:requestLegacyExternalStorage="true"
+29-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:27:9-52
+30        android:roundIcon="@drawable/limbo_circle"
+30-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:25:9-51
+31        android:theme="@style/Theme.AppCompat" >
+31-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:28:9-47
+32        <activity
+32-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:30:9-33:51
+33            android:name="com.max2idea.android.limbo.main.LimboFileManager"
+33-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:31:13-76
+34            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+34-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:32:13-170
+35            android:label="@string/filemanager" />
+35-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:33:13-48
+36        <activity
+36-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:34:9-39:66
+37            android:name="com.max2idea.android.limbo.main.LimboSDLActivity"
+37-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:35:13-76
+38            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+38-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:36:13-170
+39            android:label="@string/app_name"
+39-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:37:13-45
+40            android:launchMode="singleTask"
+40-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:38:13-44
+41            android:theme="@style/Theme.AppCompat.NoActionBar" />
+41-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:39:13-63
+42        <activity
+42-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:40:9-43:48
+43            android:name="com.max2idea.android.limbo.main.LimboSettingsManager"
+43-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:41:13-80
+44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+44-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:42:13-170
+45            android:label="@string/Settings" />
+45-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:43:13-45
+46
+47        <service
+47-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:44:9-52:19
+48            android:name="com.max2idea.android.limbo.machine.MachineService"
+48-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:45:13-77
+49            android:enabled="true"
+49-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:46:13-35
+50            android:exported="false"
+50-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:47:13-37
+51            android:label="@string/limboservice" >
+51-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:48:13-49
+52            <intent-filter>
+52-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:49:13-51:29
+53                <action android:name="com.max2idea.android.limbo.action.STARTVM" />
+53-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:50:17-84
+53-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:50:25-81
+54            </intent-filter>
+55        </service>
+56    </application>
+57
+58</manifest>
