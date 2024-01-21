@@ -29,6 +29,7 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.limbo.emu.lib.R;
+import com.max2idea.android.limbo.downloads.Downloads;
 import com.max2idea.android.limbo.main.Config;
 import com.max2idea.android.limbo.main.LimboApplication;
 import com.max2idea.android.limbo.main.LimboSettingsManager;
@@ -91,7 +92,7 @@ public class UpdateChecker {
         alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, activity.getString(R.string.GenNewVersion),
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        NetworkUtils.openURL(activity, Config.downloadLink);
+                        Downloads.showDownloads(activity);
                     }
                 });
         alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, activity.getString(R.string.DoNotShowAgain),

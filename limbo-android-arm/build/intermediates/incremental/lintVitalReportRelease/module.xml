@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-arm"
+    name=":limbo-android-arm"
+    type="APP"
+    maven="LimboEmulatorPlus:limbo-android-arm:"
+    agpVersion="8.0.2"
+    buildFolder="build"
+    bootClassPath="C:\Users\liuji\AppData\Local\Android\Sdk\platforms\android-29\android.jar;C:\Users\liuji\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-29"
+    neverShrinking="true">
+  <lintOptions
+      disable="MissingTranslation"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="MissingTranslation"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

@@ -27,6 +27,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
+import android.widget.TextView;
 
 import com.limbo.emu.lib.R;
 import com.max2idea.android.limbo.files.FileUtils;
@@ -58,7 +60,15 @@ public class MachineExporter extends AsyncTask<Void, Void, Void> {
         LinearLayout mLayout = new LinearLayout(activity);
         mLayout.setPadding(20, 20, 20, 20);
         mLayout.setOrientation(LinearLayout.VERTICAL);
-
+        TextView textView = new TextView(activity);
+        textView.setTextSize(15);
+        textView.setText(activity.getResources().getString(R.string.ExportWarn));
+        textView.setPadding(20, 20, 20, 20);
+        ScrollView scrollView = new ScrollView(activity);
+        scrollView.setLayoutParams(new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
+        scrollView.addView(textView);
+        mLayout.addView(scrollView);
         final EditText exportNameView = new EditText(activity);
         exportNameView.setEnabled(true);
         exportNameView.setVisibility(View.VISIBLE);

@@ -72,13 +72,15 @@ public class Config {
     static int mouseButtonDelay = 100;
 
     // App config
-    public static final String APP_NAME = "Limbo Emulator";
+    public static final String APP_NAME = "Limbo Emulator Plus";
 
     public static final String defaultDNSServer = "1.1.1.1";
     // App Config
     public static final String downloadLink = "https://github.com/limboemu/limbo/wiki/Downloads";
 
     public static final String dnLinks = "https://limboplus.xtzyj.top/#/?id=downloads";
+
+    public static final String lanzouLink = "https://xtzyj.lanzouu.com/b02k2wazc";
     public static final String guidesLink = "https://limboplus.xtzyj.top";
     public static final String kvmLink = "https://github.com/limboemu/limbo/wiki/KVM";
     public static final String faqLink = "https://github.com/limboemu/limbo/wiki/FAQ";

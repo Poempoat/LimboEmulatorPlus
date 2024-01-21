@@ -35,6 +35,7 @@ import com.max2idea.android.limbo.main.Config;
 import com.max2idea.android.limbo.main.LimboApplication;
 import com.max2idea.android.limbo.main.LimboSettingsManager;
 import com.max2idea.android.limbo.network.NetworkUtils;
+import com.max2idea.android.limbo.toast.ToastUtils;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -53,13 +54,20 @@ public class Downloads {
 
         // 设置XML布局文件为对话框的视图
         alertDialog.setView(dialogView);
-        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, activity.getString(R.string.Download),
+        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, activity.getString(R.string.lanzou),
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        ToastUtils.toastLong(activity, activity.getString(R.string.lanzoupwd));
+                        NetworkUtils.openURL(activity, Config.lanzouLink);
+                    }
+                });
+        alertDialog.setButton(DialogInterface.BUTTON_NEUTRAL, activity.getString(R.string.GoToWiki),
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         NetworkUtils.openURL(activity, Config.dnLinks);
                     }
                 });
-        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, activity.getString(android.R.string.ok),
+        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, activity.getString(android.R.string.ok),
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         // 点击"确定"按钮后的处理

@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "OPTIMIZED_PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.limbo.emu.plus.arm",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 60001,
+      "versionName": "6.0.1-arm",
+      "outputFile": "resources-release-optimize.ap_"
+    }
+  ],
+  "elementType": "File"
+}

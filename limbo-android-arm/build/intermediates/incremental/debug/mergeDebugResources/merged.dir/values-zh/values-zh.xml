@@ -96,6 +96,7 @@
     <string name="GoToWiki">官网</string>
     <string name="HighPriority">高优先级</string>
     <string name="HostForward">端口映射：</string>
+    <string name="HostfwdExample">tcp:主机端口1:虚拟机端口1,udp:主机端口2:虚拟机端口2,...</string>
     <string name="IAcknowledge">我知道了</string>
     <string name="IdleRefreshRate">闲置刷新率</string>
     <string name="IgnoreBreakpointInvalidation">忽略断点失效</string>
@@ -336,6 +337,15 @@
     <string name="mouseButtonDelay">鼠标按钮点击延迟</string>
     <string name="mouseButtonDelaySummary">鼠标按钮点击之间的延迟。 较低的值具有更好的性能，但模拟器可能无法理解鼠标事件，因此请使用较高的值。</string>
     <string name="mouse_follow_pan">鼠标跟随平移</string>
+    <string name="ms100">100 毫秒</string>
+    <string name="ms20">20 毫秒</string>
+    <string name="ms30">30 毫秒</string>
+    <string name="ms40">40 毫秒</string>
+    <string name="ms50">50 毫秒</string>
+    <string name="ms60">60 毫秒</string>
+    <string name="ms70">70 毫秒</string>
+    <string name="ms80">80 毫秒</string>
+    <string name="ms90">90 毫秒</string>
     <string name="mttcgHelp">MTTCG帮助</string>
     <string name="multipleVCPU">多个虚拟CPU</string>
     <string name="multipleVCPUWarning">警告！除非您使用 KVM 或 MTTCG，否则设置多个虚拟 CPU 不会带来额外的性能。您的设备甚至可能会变慢或虚拟机操作系统可能会挂起，因此建议使用 1 个 CPU。\n \n</string>

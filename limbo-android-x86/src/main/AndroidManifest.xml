@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:versionCode="20003"
-    android:versionName="2.0.3-x86-debug">
+    android:versionName="2.0.3-x86">
 
     <application
         tools:replace="android:label"

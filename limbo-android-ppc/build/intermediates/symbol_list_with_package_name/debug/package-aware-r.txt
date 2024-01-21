@@ -1499,7 +1499,7 @@ drawable play
 drawable preference_list_divider_material
 drawable refresh
 drawable reset
-drawable savestate
+drawable savestatus
 drawable screen
 drawable sdcard
 drawable settings
@@ -2340,6 +2340,7 @@ string GenNewVersion
 string GoToWiki
 string HighPriority
 string HostForward
+string HostfwdExample
 string IAcknowledge
 string IdleRefreshRate
 string IgnoreBreakpointInvalidation
@@ -2630,6 +2631,15 @@ string mouse
 string mouseButtonDelay
 string mouseButtonDelaySummary
 string mouse_follow_pan
+string ms100
+string ms20
+string ms30
+string ms40
+string ms50
+string ms60
+string ms70
+string ms80
+string ms90
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix

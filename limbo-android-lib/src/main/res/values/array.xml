@@ -12,15 +12,15 @@
     </string-array>
 
     <string-array name="keyPressDelayLabels">
-        <item>20 ms</item>
-        <item>30 ms</item>
-        <item>40 ms</item>
-        <item>50 ms</item>
-        <item>60 ms</item>
-        <item>70 ms</item>
-        <item>80 ms</item>
-        <item>90 ms</item>
-        <item>100 ms</item>
+        <item>@string/ms20</item>
+        <item>@string/ms30</item>
+        <item>@string/ms40</item>
+        <item>@string/ms50</item>
+        <item>@string/ms60</item>
+        <item>@string/ms70</item>
+        <item>@string/ms80</item>
+        <item>@string/ms90</item>
+        <item>@string/ms100</item>
     </string-array>
     <string-array name="keyPressDelayValues">
         <item>20</item>
@@ -35,15 +35,15 @@
     </string-array>
 
     <string-array name="mouseButtonDelayLabels">
-        <item>20 ms</item>
-        <item>30 ms</item>
-        <item>40 ms</item>
-        <item>50 ms</item>
-        <item>60 ms</item>
-        <item>70 ms</item>
-        <item>80 ms</item>
-        <item>90 ms</item>
-        <item>100 ms</item>
+        <item>@string/ms20</item>
+        <item>@string/ms30</item>
+        <item>@string/ms40</item>
+        <item>@string/ms50</item>
+        <item>@string/ms60</item>
+        <item>@string/ms70</item>
+        <item>@string/ms80</item>
+        <item>@string/ms90</item>
+        <item>@string/ms100</item>
     </string-array>
     <string-array name="mouseButtonDelayValues">
         <item>20</item>

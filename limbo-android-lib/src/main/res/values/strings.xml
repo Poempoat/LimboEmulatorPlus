@@ -117,7 +117,7 @@
     <string name="use_keymapper">Use Key Mapper</string>
     <string name="add_special_keys">Add Special Keys/Buttons</string>
     <string name="remove_key_mapper">Remove Key Mapper</string>
-    <string name="welcomeText">Welcome to Limbo Plus Enhanced, It is base on Limbo Emulator and is a port of QEMU for Android devices. Limbo Plus can emulate most of PC operating systems. For links to downloads, guides, and virtual disk images visit the Limbo Wiki. Download software and images only from trusted websites!</string>
+    <string name="welcomeText">Welcome to Limbo Emulator Plus, It is base on Limbo Emulator and is a port of QEMU for Android devices. Limbo Plus can emulate most of PC operating systems. For links to downloads, guides, and virtual disk images visit the Limbo Wiki. Download software and images only from trusted websites!(Check for Updates on Startup is recommended)</string>
     <string name="checkForUpdates">Check for Updates on Startup</string>
     <string name="sdcardNotMounted">Error: SD card is not mounted</string>
     <string name="fixesMouseParen">(Fixes Mouse)</string>
@@ -433,4 +433,17 @@
     <string name="Telegram" translatable="false">Telegram</string>
     <string name="Yukaidi" translatable="false">Yukaidi</string>
     <string name="Download">Download</string>
+    <string name="HostfwdExample">tcp:hostport1:guestport1,udp:hostport2:guestport2,...</string>
+    <string name="ms20">20 ms</string>
+    <string name="ms30">30 ms</string>
+    <string name="ms40">40 ms</string>
+    <string name="ms50">50 ms</string>
+    <string name="ms60">60 ms</string>
+    <string name="ms70">70 ms</string>
+    <string name="ms80">80 ms</string>
+    <string name="ms90">90 ms</string>
+    <string name="ms100">100 ms</string>
+    <string name="ExportWarn">Warning: Configurations exported from Limbo Emulator Plus may not be imported into the original or other versions of Limbo Emulator, or even different versions of Limbo Emulator Plus!</string>
+    <string name="select">Select</string>
+    <string name="lanzoupwd">Password: 5kat</string>
 </resources>

@@ -98,13 +98,13 @@
     <string name="use_keymapper">使用按键映射器</string>
     <string name="add_special_keys">添加特殊按键/按钮</string>
     <string name="remove_key_mapper">移除按键映射器</string>
-    <string name="welcomeText">欢迎使用 Limbo Plus 增强版，它是基于Limbo Emulator一个QEMU在安卓端的模拟器。 Limbo Plus可以模拟大多数PC操作系统。 有关下载、指南和虚拟磁盘映像的链接，请访问 Limbo Wiki。仅从受信任的网站下载软件和映像！</string>
+    <string name="welcomeText">欢迎使用 Limbo Emulator Plus，它是基于Limbo Emulator一个QEMU在安卓端的模拟器。 Limbo Plus可以模拟大多数PC操作系统。 有关下载、指南和虚拟磁盘映像的链接，请访问 Limbo Wiki。仅从受信任的网站下载软件和映像！（建议勾选启动时检查更新）</string>
     <string name="checkForUpdates">启动时检查更新</string>
     <string name="sdcardNotMounted">错误：SD卡尚未挂载</string>
     <string name="fixesMouseParen">（经过修复的鼠标）</string>
     <string name="machinesImported">机器已导入</string>
     <string name="reassignDiskFilesInstructions">如果这是新安装，您将需要通过文件管理器重新打开所有磁盘文件</string>
-    <string name="importInstructions">选择要导入的 csv 文件。\n“警告：任何具有相同名称的机器都将被替换</string>
+    <string name="importInstructions">选择要导入的 csv 文件。\n警告：任何具有相同名称的机器都将被替换</string>
     <string name="vmNotRunning">虚拟机未运行</string>
     <string name="Running">运行中</string>
     <string name="Suspended">已挂起</string>
@@ -214,7 +214,7 @@
     <string name="KeyMapperButtonLayout">按键映射器按钮布局</string>
     <string name="KeyMapperLayout">按键映射器布局</string>
     <string name="EnableLegacyFileManagerSummary">为旧设备启用旧版文件管理器。可能不支持SD卡</string>
-    <string name="EnableLegacyFileManager">启用传统文件管理器</string>
+    <string name="EnableLegacyFileManager">启用旧版文件管理器</string>
     <string name="CheckSoftwareUpdates">检查软件更新</string>
     <string name="CheckSoftwareUpdatesSummary">启动时检查软件更新</string>
     <string name="FailedToSaveLogFile">\"保存日志文件失败：\"</string>
@@ -289,7 +289,7 @@
     <string name="EnableAaudioSummary">Aaudio 是一种替代的原生声音流媒体库，可提供更好的音频性能。需要重启应用！</string>
     <string name="Interface">界面</string>
     <string name="diskCache">磁盘缓存</string>
-    <string name="diskCacheSummary">磁盘缓存可能无法与传统文件管理器一起使用！如果您遇到问题，设置为default</string>
+    <string name="diskCacheSummary">磁盘缓存可能无法与旧版管理器一起使用！如果您遇到问题，设置为default</string>
     <string name="IgnoreBreakpointInvalidation">忽略断点失效</string>
     <string name="IgnoreBreakpointInvalidationSummary">忽略断点失效</string>
     <string name="ImportBIOSFile">导入BIOS</string>
@@ -423,5 +423,18 @@
     <string name="DownloadsText">你可以从多个渠道下载Limbo Emulator Plus的最新版本。</string>
     <string name="lanzou">蓝奏云</string>
     <string name="Download">下载</string>
+    <string name="HostfwdExample">tcp:主机端口1:虚拟机端口1,udp:主机端口2:虚拟机端口2,...</string>
+    <string name="ms20">20 毫秒</string>
+    <string name="ms30">30 毫秒</string>
+    <string name="ms40">40 毫秒</string>
+    <string name="ms50">50 毫秒</string>
+    <string name="ms60">60 毫秒</string>
+    <string name="ms70">70 毫秒</string>
+    <string name="ms80">80 毫秒</string>
+    <string name="ms90">90 毫秒</string>
+    <string name="ms100">100 毫秒</string>
+    <string name="ExportWarn">警告：从Limbo Emulator Plus导出的配置可能无法导入原版或其它版本的Limbo，甚至可能无法跨Plus版本导入！</string>
+    <string name="select">选择</string>
+    <string name="lanzoupwd">密码：5kat</string>
 
 </resources>

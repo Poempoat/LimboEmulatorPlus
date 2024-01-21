@@ -177,7 +177,7 @@
                 android:layout_height="wrap_content"
                 android:enabled="false"
                 android:gravity="right"
-                android:hint="tcp:hostport1:guestport1,udp:hostport2:questport2,..."
+                android:hint="@string/HostfwdExample"
                 android:inputType="textFilter|textNoSuggestions"
                 android:singleLine="true"
                 android:text=""

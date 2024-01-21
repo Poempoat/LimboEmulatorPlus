@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:4:5-35
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:15:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:17:22-74
+uses-feature#0x00020000
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:18:5-54
+	android:glEsVersion
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:18:19-51
+application
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:20:5-53:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:27:9-52
+	android:hardwareAccelerated
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:23:9-43
+	android:roundIcon
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:25:9-51
+	android:largeHeap
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:26:9-33
+	android:icon
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:24:9-39
+	android:allowBackup
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:28:9-47
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:21:9-72
+activity#com.max2idea.android.limbo.main.LimboFileManager
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:30:9-33:51
+	android:label
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:33:13-48
+	android:configChanges
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:32:13-170
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:31:13-76
+activity#com.max2idea.android.limbo.main.LimboSDLActivity
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:34:9-39:66
+	android:label
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:37:13-45
+	android:launchMode
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:38:13-44
+	android:configChanges
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:36:13-170
+	android:theme
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:39:13-63
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:35:13-76
+activity#com.max2idea.android.limbo.main.LimboSettingsManager
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:40:9-43:48
+	android:label
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:43:13-45
+	android:configChanges
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:42:13-170
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:41:13-80
+service#com.max2idea.android.limbo.machine.MachineService
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:44:9-52:19
+	android:enabled
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:46:13-35
+	android:label
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:48:13-49
+	android:exported
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:45:13-77
+intent-filter#action:name:com.max2idea.android.limbo.action.STARTVM
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:49:13-51:29
+action#com.max2idea.android.limbo.action.STARTVM
+ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:50:17-84
+	android:name
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:50:25-81
+uses-sdk
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+		ADDED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml

@@ -27,15 +27,15 @@
         <item>5</item>
     </string-array>
     <string-array name="keyPressDelayLabels">
-        <item>20 ms</item>
-        <item>30 ms</item>
-        <item>40 ms</item>
-        <item>50 ms</item>
-        <item>60 ms</item>
-        <item>70 ms</item>
-        <item>80 ms</item>
-        <item>90 ms</item>
-        <item>100 ms</item>
+        <item>@string/ms20</item>
+        <item>@string/ms30</item>
+        <item>@string/ms40</item>
+        <item>@string/ms50</item>
+        <item>@string/ms60</item>
+        <item>@string/ms70</item>
+        <item>@string/ms80</item>
+        <item>@string/ms90</item>
+        <item>@string/ms100</item>
     </string-array>
     <string-array name="keyPressDelayValues">
         <item>20</item>
@@ -49,15 +49,15 @@
         <item>100</item>
     </string-array>
     <string-array name="mouseButtonDelayLabels">
-        <item>20 ms</item>
-        <item>30 ms</item>
-        <item>40 ms</item>
-        <item>50 ms</item>
-        <item>60 ms</item>
-        <item>70 ms</item>
-        <item>80 ms</item>
-        <item>90 ms</item>
-        <item>100 ms</item>
+        <item>@string/ms20</item>
+        <item>@string/ms30</item>
+        <item>@string/ms40</item>
+        <item>@string/ms50</item>
+        <item>@string/ms60</item>
+        <item>@string/ms70</item>
+        <item>@string/ms80</item>
+        <item>@string/ms90</item>
+        <item>@string/ms100</item>
     </string-array>
     <string-array name="mouseButtonDelayValues">
         <item>20</item>
@@ -164,6 +164,7 @@
     <string name="ExportFilename">Export Filename</string>
     <string name="ExportFilenameCannotBeEmpty">Export filename cannot be empty</string>
     <string name="ExportMachines">Export Machines</string>
+    <string name="ExportWarn">Warning: Configurations exported from Limbo Emulator Plus may not be imported into the original or other versions of Limbo Emulator, or even different versions of Limbo Emulator Plus!</string>
     <string name="ExternalMouseDescr">External Mouse (Desktop)</string>
     <string name="ExternalMouseEnabled">External Mouse Enabled</string>
     <string name="ExternalVNCEnabledWarning">You have enabled External VNC. Anyone on the same network could read your VNC password and control your virtual machine! Make sure you trust your network. Continue?</string>
@@ -184,6 +185,7 @@
     <string name="GoToWiki">Website</string>
     <string name="HighPriority">High Priority</string>
     <string name="HostForward">Host Forward:</string>
+    <string name="HostfwdExample">tcp:hostport1:guestport1,udp:hostport2:guestport2,...</string>
     <string name="IAcknowledge">I Acknowledge</string>
     <string name="IdleRefreshRate">Idle Refresh Rate</string>
     <string name="IgnoreBreakpointInvalidation">Ignore Breakpoint Invalidation</string>
@@ -420,6 +422,7 @@
     <string name="keys_caption">Keys</string>
     <string name="language">Language</string>
     <string name="lanzou">Lanzou</string>
+    <string name="lanzoupwd">Password: 5kat</string>
     <string name="limboservice">Limbo Plus Service</string>
     <string name="linksInstructions">Get Full Qwerty Keyboard, Download Manager for ISO and virtual disks images, SSH/FTP Client for network connection</string>
     <string name="list_caption">List</string>
@@ -433,6 +436,15 @@
     <string name="mouseButtonDelay">Mouse Button Click Delay</string>
     <string name="mouseButtonDelaySummary">Delay between mouse button clicks. Lower values have better performance but mouse events might be not be understood by the emulator so use higher values.</string>
     <string name="mouse_follow_pan">Mouse follow pan</string>
+    <string name="ms100">100 ms</string>
+    <string name="ms20">20 ms</string>
+    <string name="ms30">30 ms</string>
+    <string name="ms40">40 ms</string>
+    <string name="ms50">50 ms</string>
+    <string name="ms60">60 ms</string>
+    <string name="ms70">70 ms</string>
+    <string name="ms80">80 ms</string>
+    <string name="ms90">90 ms</string>
     <string name="mttcgHelp">MTTCG Help</string>
     <string name="multipleVCPU">Multiple vCPUs</string>
     <string name="multipleVCPUWarning">Warning! Setting Multiple Virtual CPUs will NOT result in additional performance unless you use KVM or MTTCG. Your device might even be slow or the Guest OS might hang so it is advised to use 1 CPU. \n\n</string>
@@ -482,6 +494,7 @@
     <string name="screen">Screen</string>
     <string name="sdcard">SD Card:</string>
     <string name="sdcardNotMounted">Error: SD card is not mounted</string>
+    <string name="select">Select</string>
     <string name="send_button">Send</string>
     <string name="send_key_again">Send Key Again</string>
     <string name="server">Server</string>
@@ -516,7 +529,7 @@
     <string name="vncServer">VNC Server</string>
     <string name="vncUnecryptedWarning">Warning: VNC Connection is Unencrypted and not secure make sure you\'re on a private network!\n</string>
     <string name="volume">Volume</string>
-    <string name="welcomeText">Welcome to Limbo Plus Enhanced, It is base on Limbo Emulator and is a port of QEMU for Android devices. Limbo Plus can emulate most of PC operating systems. For links to downloads, guides, and virtual disk images visit the Limbo Wiki. Download software and images only from trusted websites!</string>
+    <string name="welcomeText">Welcome to Limbo Emulator Plus, It is base on Limbo Emulator and is a port of QEMU for Android devices. Limbo Plus can emulate most of PC operating systems. For links to downloads, guides, and virtual disk images visit the Limbo Wiki. Download software and images only from trusted websites!(Check for Updates on Startup is recommended)</string>
     <string name="zoom_in">Zoom In</string>
     <string name="zoom_out">Zoom Out</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
