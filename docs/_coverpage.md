@@ -14,6 +14,6 @@
 
 [GitHub](https://github.com/Poempoat/LimboEmulatorPlus)
 [Download](#downloads)
-[Get Started](#docsify)
+[Get Started](#limbo-emulator-plus)
 
 ![](bg.png)

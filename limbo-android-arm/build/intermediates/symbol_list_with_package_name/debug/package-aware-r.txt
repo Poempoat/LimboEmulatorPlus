@@ -2320,6 +2320,7 @@ string Export
 string ExportFilename
 string ExportFilenameCannotBeEmpty
 string ExportMachines
+string ExportWarn
 string ExternalMouseDescr
 string ExternalMouseEnabled
 string ExternalVNCEnabledWarning
@@ -2618,6 +2619,7 @@ string keyboard
 string keys_caption
 string language
 string lanzou
+string lanzoupwd
 string limboservice
 string linksInstructions
 string list_caption
@@ -2731,6 +2733,7 @@ string screen
 string sdcard
 string sdcardNotMounted
 string search_menu_title
+string select
 string send_button
 string send_key_again
 string server

@@ -1,7 +1,7 @@
-* Languages
+* Language
 
-  * [English](/)
-  * [简体中文](/zh-cn/README.md)
+  * [English](https://limboplus.xtzyj.top/)
+  * [简体中文](https://limboplus.xtzyj.top/zh-cn/#/)
 
 * Contact Me
   * [Telegram](https://t.me/limbopluschat)
@@ -10,3 +10,4 @@
 
 * More
   * [Telegram Channel](https://t.me/limboemuplus)
+  * [Blog](https://xtzyj.top)
