@@ -8,5 +8,5 @@
 
 * 更多
   * [Telegram](https://t.me/limboemuplus)
-  * [Wiki](/zh-cn/wiki)
+  * [Wiki](/wiki)
   * [博客](https://xtzyj.top)
