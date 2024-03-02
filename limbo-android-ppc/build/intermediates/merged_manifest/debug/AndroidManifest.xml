@@ -27,6 +27,7 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
+        android:extractNativeLibs="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/limbo"
         android:label="Limbo PowerPC Emulator"

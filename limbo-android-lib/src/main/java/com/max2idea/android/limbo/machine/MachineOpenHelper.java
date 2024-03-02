@@ -48,11 +48,11 @@ public class MachineOpenHelper extends SQLiteOpenHelper implements IMachineDatab
             + MachineProperty.MACHINE_NAME.name() + " TEXT , " + MachineProperty.SNAPSHOT_NAME.name() + " TEXT , " + MachineProperty.CPU.name() + " TEXT, " + MachineProperty.ARCH.name() + " TEXT, " + MachineProperty.MEMORY.name()
             + " TEXT, " + MachineProperty.FDA.name() + " TEXT, " + MachineProperty.FDB.name() + " TEXT, " + MachineProperty.CDROM.name() + " TEXT, " + MachineProperty.HDA.name() + " TEXT, " + MachineProperty.HDB.name() + " TEXT, "
             + MachineProperty.HDC.name() + " TEXT, " + MachineProperty.HDD.name() + " TEXT, " + MachineProperty.BOOT_CONFIG.name() + " TEXT, " + MachineProperty.BIOS_CONFIG.name() + " TEXT, "+ MachineProperty.NETCONFIG.name() + " TEXT, " + MachineProperty.NICCONFIG.name()
-            + " TEXT, " + MachineProperty.VGA.name() + " TEXT, " + MachineProperty.SOUNDCARD.name() + " TEXT, " + MachineProperty.HDCONFIG.name() + " TEXT, " + MachineProperty.DISABLE_ACPI.name()
+            + " TEXT, " + MachineProperty.VGA.name() + " TEXT, " + MachineProperty.VIDEOMEMORY.name() + " TEXT, " + MachineProperty.SOUNDCARD.name() + " TEXT, " + MachineProperty.HDCONFIG.name() + " TEXT, " + MachineProperty.DISABLE_ACPI.name()
             + " INTEGER, " + MachineProperty.DISABLE_HPET.name() + " INTEGER, " + MachineProperty.ENABLE_USBMOUSE.name() + " INTEGER, " + MachineProperty.STATUS.name() + " TEXT, "
             + MachineProperty.LAST_UPDATED.name() + " DATE, " + MachineProperty.KERNEL.name() + " INTEGER, " + MachineProperty.INITRD.name() + " TEXT, " + MachineProperty.APPEND.name() + " TEXT, " + MachineProperty.CPUNUM.name()
             + " INTEGER, " + MachineProperty.MACHINETYPE.name() + " TEXT, " + MachineProperty.DISABLE_FD_BOOT_CHK.name() + " INTEGER, " + MachineProperty.SD.name() + " TEXT, " + MachineProperty.PAUSED.name()
-            + " INTEGER, " + MachineProperty.SHARED_FOLDER.name() + " TEXT, " + MachineProperty.SHARED_FOLDER_MODE.name() + " INTEGER, " + MachineProperty.EXTRA_PARAMS.name() + " TEXT, "
+            + " INTEGER, " + MachineProperty.SHARED_FOLDER.name() + " TEXT, " + MachineProperty.SHARED_FOLDER_MODE.name() + " INTEGER, " + MachineProperty.USB.name() + " TEXT, " + MachineProperty.EXTRA_PARAMS.name() + " TEXT, "
             + MachineProperty.HOSTFWD.name() + " TEXT, " + MachineProperty.GUESTFWD.name() + " TEXT, " + MachineProperty.UI.name() + " TEXT, " + MachineProperty.DISABLE_TSC.name() + " INTEGER, "
             + MachineProperty.MOUSE.name() + " TEXT, " + MachineProperty.KEYBOARD.name() + " TEXT, " + MachineProperty.ENABLE_MTTCG.name() + " INTEGER, " + MachineProperty.ENABLE_KVM.name() + " INTEGER , "
             + MachineProperty.HDA_INTERFACE.name() + " TEXT, " + MachineProperty.HDB_INTERFACE.name() + " TEXT, " + MachineProperty.HDC_INTERFACE.name() + " TEXT, " + MachineProperty.HDD_INTERFACE.name() + " TEXT , "
@@ -132,6 +132,7 @@ public class MachineOpenHelper extends SQLiteOpenHelper implements IMachineDatab
         }
 
         if (newVersion >= 12 && oldVersion <= 11) {
+            db.execSQL("ALTER TABLE " + MACHINE_TABLE_NAME + " ADD COLUMN " + MachineProperty.USB + " TEXT;");
             db.execSQL("ALTER TABLE " + MACHINE_TABLE_NAME + " ADD COLUMN " + MachineProperty.EXTRA_PARAMS + " TEXT;");
         }
 
@@ -184,12 +185,14 @@ public class MachineOpenHelper extends SQLiteOpenHelper implements IMachineDatab
         stateValues.put(MachineProperty.FDA.name(), machine.getFdaImagePath());
         stateValues.put(MachineProperty.FDB.name(), machine.getFdbImagePath());
         stateValues.put(MachineProperty.SHARED_FOLDER.name(), machine.getSharedFolderPath());
-        stateValues.put(MachineProperty.SHARED_FOLDER_MODE.name(), machine.getShared_folder_mode());
+        stateValues.put(MachineProperty.SHARED_FOLDER_MODE.name(), 1);
         stateValues.put(MachineProperty.BOOT_CONFIG.name(), machine.getBootDevice());
         stateValues.put(MachineProperty.BIOS_CONFIG.name(), machine.getBios());
         stateValues.put(MachineProperty.NETCONFIG.name(), machine.getNetwork());
         stateValues.put(MachineProperty.NICCONFIG.name(), machine.getNetworkCard());
         stateValues.put(MachineProperty.VGA.name(), machine.getVga());
+        stateValues.put(MachineProperty.USB.name(), machine.getUsb());
+        stateValues.put(MachineProperty.VIDEOMEMORY.name(), machine.getVideoMemory());
         stateValues.put(MachineProperty.DISABLE_ACPI.name(), machine.getDisableAcpi());
         stateValues.put(MachineProperty.DISABLE_HPET.name(), machine.getDisableHPET());
         stateValues.put(MachineProperty.DISABLE_TSC.name(), machine.getDisableTSC());
@@ -200,6 +203,7 @@ public class MachineOpenHelper extends SQLiteOpenHelper implements IMachineDatab
         stateValues.put(MachineProperty.APPEND.name(), machine.getAppend());
         stateValues.put(MachineProperty.MACHINETYPE.name(), machine.getMachineType());
         stateValues.put(MachineProperty.ARCH.name(), machine.getArch());
+        stateValues.put(MachineProperty.USB.name(), machine.getUsb());
         stateValues.put(MachineProperty.EXTRA_PARAMS.name(), machine.getExtraParams());
         stateValues.put(MachineProperty.HOSTFWD.name(), machine.getHostFwd());
         stateValues.put(MachineProperty.GUESTFWD.name(), machine.getGuestFwd());
@@ -259,12 +263,12 @@ public class MachineOpenHelper extends SQLiteOpenHelper implements IMachineDatab
         String qry = "select "
                 + MachineProperty.MACHINE_NAME + " , " + MachineProperty.CPU + " , " + MachineProperty.MEMORY + " , " + MachineProperty.CDROM + " , " + MachineProperty.FDA
                 + " , " + MachineProperty.FDB + " , " + MachineProperty.HDA + " , " + MachineProperty.HDB + " , " + MachineProperty.HDC + " , " + MachineProperty.HDD + " , "
-                + MachineProperty.NETCONFIG + " , " + MachineProperty.NICCONFIG + " , " + MachineProperty.VGA + " , " + MachineProperty.SOUNDCARD + " , "
+                + MachineProperty.NETCONFIG + " , " + MachineProperty.NICCONFIG + " , " + MachineProperty.VGA + " , "  + MachineProperty.VIDEOMEMORY + " , "+ MachineProperty.SOUNDCARD + " , "
                 + MachineProperty.HDCONFIG + " , " + MachineProperty.DISABLE_ACPI + " , " + MachineProperty.DISABLE_HPET + " , "
                 + MachineProperty.ENABLE_USBMOUSE + " , " + MachineProperty.SNAPSHOT_NAME + " , " + MachineProperty.BOOT_CONFIG + " , " + MachineProperty.BIOS_CONFIG + " , " +MachineProperty.KERNEL
                 + " , " + MachineProperty.INITRD + " , " + MachineProperty.APPEND + " , " + MachineProperty.CPUNUM + " , " + MachineProperty.MACHINETYPE + " , "
                 + MachineProperty.DISABLE_FD_BOOT_CHK + " , " + MachineProperty.ARCH + " , " + MachineProperty.PAUSED + " , " + MachineProperty.SD + " , "
-                + MachineProperty.SHARED_FOLDER + " , " + MachineProperty.SHARED_FOLDER_MODE + " , " + MachineProperty.EXTRA_PARAMS + " , "
+                + MachineProperty.SHARED_FOLDER + " , " + MachineProperty.SHARED_FOLDER_MODE + " , " + MachineProperty.USB + " , " + MachineProperty.EXTRA_PARAMS + " , "
                 + MachineProperty.HOSTFWD + " , " + MachineProperty.GUESTFWD + " , " + MachineProperty.UI + ", " + MachineProperty.DISABLE_TSC + ", "
                 + MachineProperty.MOUSE + ", " + MachineProperty.KEYBOARD + ", " + MachineProperty.ENABLE_MTTCG + ", " + MachineProperty.ENABLE_KVM + ", "
                 + MachineProperty.HDA_INTERFACE + ", " + MachineProperty.HDB_INTERFACE + ", " + MachineProperty.HDC_INTERFACE + ", " + MachineProperty.HDD_INTERFACE + ", "
@@ -303,40 +307,42 @@ public class MachineOpenHelper extends SQLiteOpenHelper implements IMachineDatab
             myMachine.setNetwork(cur.getString(10));
             myMachine.setNetworkCard(cur.getString(11));
             myMachine.setVga(cur.getString(12));
-            myMachine.setSoundCard(cur.getString(13));
-            myMachine.setDisableACPI(cur.getInt(15));
-            myMachine.setDisableHPET(cur.getInt(16));
-            myMachine.setBootDevice(cur.getString(19));
-            myMachine.setBios(cur.getString(20));
-            myMachine.setKernel(cur.getString(21));
-            myMachine.setInitRd(cur.getString(22));
-            myMachine.setAppend(cur.getString(23));
-            myMachine.setCpuNum(cur.getInt(24));
-            myMachine.setMachineType(cur.getString(25));
-            myMachine.setDisableFdBootChk(cur.getInt(26));
-            myMachine.setArch(cur.getString(27));
-            myMachine.setPaused(cur.getInt(28));
+            myMachine.setVideoMemory(cur.getInt(13));
+            myMachine.setSoundCard(cur.getString(14));
+            myMachine.setDisableACPI(cur.getInt(16));
+            myMachine.setDisableHPET(cur.getInt(17));
+            myMachine.setBootDevice(cur.getString(20));
+            myMachine.setBios(cur.getString(21));
+            myMachine.setKernel(cur.getString(22));
+            myMachine.setInitRd(cur.getString(23));
+            myMachine.setAppend(cur.getString(24));
+            myMachine.setCpuNum(cur.getInt(25));
+            myMachine.setMachineType(cur.getString(26));
+            myMachine.setDisableFdBootChk(cur.getInt(27));
+            myMachine.setArch(cur.getString(28));
+            myMachine.setPaused(cur.getInt(29));
 
-            myMachine.setSdImagePath(cur.getString(29));
+            myMachine.setSdImagePath(cur.getString(30));
             if (myMachine.getSdImagePath() != null)
                 myMachine.setEnableSD(true);
 
-            myMachine.setSharedFolderPath(cur.getString(30));
-            myMachine.setShared_folder_mode(31); //hard drives are always Read/Write
-            myMachine.setExtraParams(cur.getString(32));
-            myMachine.setHostFwd(cur.getString(33));
-            myMachine.setGuestFwd(cur.getString(34));
-            myMachine.setEnableVNC(cur.getString(35).equals("VNC") ? 1 : 0);
-            myMachine.setDisableTSC(cur.getInt(36));
-            myMachine.setMouse(cur.getString(37));
-            myMachine.setKeyboard(cur.getString(38));
-            myMachine.setEnableMTTCG(cur.getInt(39));
-            myMachine.setEnableKVM(cur.getInt(40));
-            myMachine.setHdaInterface(cur.getString(41));
-            myMachine.setHdbInterface(cur.getString(42));
-            myMachine.setHdcInterface(cur.getString(43));
-            myMachine.setHddInterface(cur.getString(44));
-            myMachine.setCdInterface(cur.getString(45));
+            myMachine.setSharedFolderPath(cur.getString(31));
+            myMachine.setShared_folder_mode(1); //hard drives are always Read/Write
+            myMachine.setUsb(cur.getString(33));
+            myMachine.setExtraParams(cur.getString(34));
+            myMachine.setHostFwd(cur.getString(35));
+            myMachine.setGuestFwd(cur.getString(36));
+            myMachine.setEnableVNC(cur.getString(37).equals("VNC") ? 1 : 0);
+            myMachine.setDisableTSC(cur.getInt(38));
+            myMachine.setMouse(cur.getString(39));
+            myMachine.setKeyboard(cur.getString(40));
+            myMachine.setEnableMTTCG(cur.getInt(41));
+            myMachine.setEnableKVM(cur.getInt(42));
+            myMachine.setHdaInterface(cur.getString(43));
+            myMachine.setHdbInterface(cur.getString(44));
+            myMachine.setHdcInterface(cur.getString(45));
+            myMachine.setHddInterface(cur.getString(46));
+            myMachine.setCdInterface(cur.getString(47));
         }
         cur.close();
 
@@ -377,12 +383,12 @@ public class MachineOpenHelper extends SQLiteOpenHelper implements IMachineDatab
         String qry = "select "
                 + MachineProperty.MACHINE_NAME + " , " + MachineProperty.CPU + " , " + MachineProperty.MEMORY + " , " + MachineProperty.CDROM + " , " + MachineProperty.FDA
                 + " , " + MachineProperty.FDB + " , " + MachineProperty.HDA + " , " + MachineProperty.HDB + " , " + MachineProperty.HDC + " , " + MachineProperty.HDD + " , "
-                + MachineProperty.NETCONFIG + " , " + MachineProperty.NICCONFIG + " , " + MachineProperty.VGA + " , " + MachineProperty.SOUNDCARD + " , "
+                + MachineProperty.NETCONFIG + " , " + MachineProperty.NICCONFIG + " , " + MachineProperty.VGA + " , " + MachineProperty.VIDEOMEMORY + " , " + MachineProperty.SOUNDCARD + " , "
                 + MachineProperty.HDCONFIG + " , " + MachineProperty.DISABLE_ACPI + " , " + MachineProperty.DISABLE_HPET + " , "
                 + MachineProperty.ENABLE_USBMOUSE + " , " + MachineProperty.SNAPSHOT_NAME + " , " + MachineProperty.BOOT_CONFIG + " , " + MachineProperty.BIOS_CONFIG + " , " + MachineProperty.KERNEL
                 + " , " + MachineProperty.INITRD + " , " + MachineProperty.APPEND + " , " + MachineProperty.CPUNUM + " , " + MachineProperty.MACHINETYPE + " , "
                 + MachineProperty.DISABLE_FD_BOOT_CHK + " , " + MachineProperty.ARCH + " , " + MachineProperty.PAUSED + " , " + MachineProperty.SD + " , "
-                + MachineProperty.SHARED_FOLDER + " , " + MachineProperty.SHARED_FOLDER_MODE + " , " + MachineProperty.EXTRA_PARAMS + " , "
+                + MachineProperty.SHARED_FOLDER + " , " + MachineProperty.SHARED_FOLDER_MODE + " , " + MachineProperty.USB + " , " + MachineProperty.EXTRA_PARAMS + " , "
                 + MachineProperty.HOSTFWD + " , " + MachineProperty.GUESTFWD + " , " + MachineProperty.UI + ", " + MachineProperty.DISABLE_TSC + ", "
                 + MachineProperty.MOUSE + ", " + MachineProperty.KEYBOARD + ", " + MachineProperty.ENABLE_MTTCG + ", " + MachineProperty.ENABLE_KVM +", "
                 + MachineProperty.HDA_INTERFACE + ", " + MachineProperty.HDB_INTERFACE + ", " + MachineProperty.HDC_INTERFACE + ", " + MachineProperty.HDD_INTERFACE + " "

@@ -86,7 +86,7 @@ public class MachineService extends Service {
             if (MachineController.getInstance().getMachine() == null)
                 return START_NOT_STICKY;
 
-            String text = MachineController.getInstance().getMachine().getName() + ": VM Running";
+            String text = MachineController.getInstance().getMachine().getName() + ": " + getString(R.string.VMRunning);
             if (MachineController.getInstance().isVNCEnabled()) {
                 text += " - " + service.getString(R.string.vncServer);
                 text += ": " + NetworkUtils.getVNCAddress(service) + ":" + Config.defaultVNCPort;

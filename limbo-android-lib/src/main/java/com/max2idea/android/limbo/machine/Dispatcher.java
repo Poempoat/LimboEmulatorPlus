@@ -186,6 +186,9 @@ public class Dispatcher implements ViewListener {
             case VGA:
                 getMachine().setVga(convertString(property, value));
                 break;
+            case VIDEOMEMORY:
+                getMachine().setVideoMemory(convertInt(property, value));
+                break;
             case DISABLE_ACPI:
                 getMachine().setDisableACPI((convertBoolean(property, value) ? 1 : 0));
                 break;
@@ -215,6 +218,9 @@ public class Dispatcher implements ViewListener {
                 break;
             case PAUSED:
                 getMachine().setPaused(convertInt(property, value));
+                break;
+            case USB:
+                getMachine().setUsb(convertString(property, value));
                 break;
             case EXTRA_PARAMS:
                 getMachine().setExtraParams(convertString(property,value));

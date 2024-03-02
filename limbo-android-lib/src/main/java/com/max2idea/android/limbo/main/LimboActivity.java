@@ -160,11 +160,14 @@ public class LimboActivity extends AppCompatActivity
 
     // misc
     private Spinner mRamSize;
+
+    private Spinner mVideoRamSize;
     private Spinner mBootDevices;
     private Spinner mBios;
     private Spinner mNetworkCard;
     private Spinner mNetConfig;
     private Spinner mVGAConfig;
+    private Spinner mUSBConfig;
     private Spinner mSoundCard;
     private Spinner mUI;
     private CheckBox mDisableACPI;
@@ -403,7 +406,18 @@ public class LimboActivity extends AppCompatActivity
 
             }
         });
+        mVideoRamSize.setOnItemSelectedListener(new OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                if (getMachine() == null)
+                    return;
+                String videoram = (String) ((ArrayAdapter<?>) mVideoRamSize.getAdapter()).getItem(position);
+                notifyFieldChange(MachineProperty.VIDEOMEMORY, videoram);
+            }
 
+            public void onNothingSelected(AdapterView<?> parentView) {
+
+            }
+        });
         mKernel.setOnItemSelectedListener(new OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
                 if (getMachine() == null)
@@ -520,6 +534,24 @@ public class LimboActivity extends AppCompatActivity
                     return;
                 String vgacfg = (String) ((ArrayAdapter<?>) mVGAConfig.getAdapter()).getItem(position);
                 notifyFieldChange(MachineProperty.VGA, vgacfg);
+                if (position < 3 && getMachine().getPaused() == 0
+                        && MachineController.getInstance().getCurrStatus() != MachineStatus.Running) {
+                    mVideoRamSize.setEnabled(true);
+                } else {
+                    mVideoRamSize.setEnabled(false);
+                }
+            }
+
+            public void onNothingSelected(AdapterView<?> parentView) {
+            }
+        });
+
+        mUSBConfig.setOnItemSelectedListener(new OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+                if (getMachine() == null)
+                    return;
+                String usbcfg = (String) ((ArrayAdapter<?>) mUSBConfig.getAdapter()).getItem(position);
+                notifyFieldChange(MachineProperty.USB, usbcfg);
             }
 
             public void onNothingSelected(AdapterView<?> parentView) {
@@ -941,11 +973,13 @@ public class LimboActivity extends AppCompatActivity
         mInitrd.setOnItemSelectedListener(null);
         mAppend.setOnFocusChangeListener(null);
         mVGAConfig.setOnItemSelectedListener(null);
+        mVideoRamSize.setOnItemSelectedListener(null);
         mSoundCard.setOnItemSelectedListener(null);
         mNetConfig.setOnItemSelectedListener(null);
         mNetworkCard.setOnItemSelectedListener(null);
         mDNS.setOnFocusChangeListener(null);
         mHOSTFWD.setOnFocusChangeListener(null);
+        mUSBConfig.setOnItemSelectedListener(null);
         mExtraParams.setOnFocusChangeListener(null);
     }
 
@@ -1258,10 +1292,12 @@ public class LimboActivity extends AppCompatActivity
         populateNet();
         populateNetDevices(null);
         populateVGA();
+        populateVideoRAM();
         populateSoundcardConfig();
         populateUI();
         populateKeyboardLayout();
         populateMouse();
+        populateUSB();
     }
 
     private void populateDisks() {
@@ -1431,6 +1467,7 @@ public class LimboActivity extends AppCompatActivity
 
         //graphics
         mVGAConfig.setEnabled(flag);
+        mVideoRamSize.setEnabled(flag && mVGAConfig.getSelectedItemPosition() < 3);
 
         //audio
         if (Config.enableSDLSound && getMachine() != null
@@ -1447,6 +1484,7 @@ public class LimboActivity extends AppCompatActivity
         mHOSTFWD.setEnabled(flag && mNetConfig.getSelectedItemPosition() > 0);
 
         //advanced
+        mUSBConfig.setEnabled(flag);
         mDisableACPI.setEnabled(flag);
         mDisableHPET.setEnabled(flag);
         mDisableTSC.setEnabled(flag);
@@ -1624,12 +1662,7 @@ public class LimboActivity extends AppCompatActivity
         mHDCOptions = findViewById(R.id.hdcoptions);
         mHDD = findViewById(R.id.hddimgval);
         mHDDOptions = findViewById(R.id.hddoptions);
-
-        LinearLayout sharedFolderLayout = findViewById(R.id.sharedfolderl);
-        if (!Config.enableSharedFolder)
-            sharedFolderLayout.setVisibility(View.GONE);
         mSharedFolder = findViewById(R.id.sharedfolderval);
-
         //Removable storage
         mCD = findViewById(R.id.cdromimgval);
         mFDA = findViewById(R.id.floppyimgval);
@@ -1660,6 +1693,7 @@ public class LimboActivity extends AppCompatActivity
 
         //display
         mVGAConfig = findViewById(R.id.vgacfgval);
+        mVideoRamSize = findViewById(R.id.videorammemval);
 
         //sound
         mSoundCard = findViewById(R.id.soundcfgval);
@@ -1672,6 +1706,7 @@ public class LimboActivity extends AppCompatActivity
         mHOSTFWD = findViewById(R.id.hostfwdval);
 
         // advanced
+        mUSBConfig = findViewById(R.id.usbval);
         mExtraParams = findViewById(R.id.extraparamsval);
 
         disableFeatures();
@@ -1907,10 +1942,8 @@ public class LimboActivity extends AppCompatActivity
             text = appendDriveFilename(getMachine().getHdbImagePath(), text, "HDB", false);
             text = appendDriveFilename(getMachine().getHdcImagePath(), text, "HDC", false);
             text = appendDriveFilename(getMachine().getHddImagePath(), text, "HDD", false);
+            text = appendDriveFilename(getMachine().getSharedFolderPath(), text, getString(R.string.SharedFolder), false);
 
-            if (Config.enableSharedFolder)
-                text = appendDriveFilename(getMachine().getSharedFolderPath(), text,
-                        getString(R.string.SharedFolder), false);
 
             if (text == null || text.equals("'"))
                 text = getString(R.string.none);
@@ -1970,7 +2003,8 @@ public class LimboActivity extends AppCompatActivity
         if (clear || getMachine() == null || mMachine.getSelectedItemPosition() < 2)
             mGraphicsSectionSummary.setText("");
         else {
-            String text = getString(R.string.video_card) + getMachine().getVga();
+            String text = getString(R.string.video_card) + getMachine().getVga() + ", "
+                    + getMachine().getVideoMemory() + " MB";
             mGraphicsSectionSummary.setText(text);
         }
     }
@@ -2009,10 +2043,11 @@ public class LimboActivity extends AppCompatActivity
         if (clear || getMachine() == null || mMachine.getSelectedItemPosition() < 2)
             mAdvancedSectionSummary.setText("");
         else {
-            String text = "";
+            String
+                text = getString(R.string.usbctrl) + ": " + getMachine().getUsb();
             if (getMachine().getExtraParams() != null
                     && !getMachine().getExtraParams().equals(""))
-                text = getString(R.string.ExtraParams) + ": " + getMachine().getExtraParams();
+                text = appendOption( getString(R.string.ExtraParams) + ": " + getMachine().getExtraParams(), text);
             mAdvancedSectionSummary.setText(text);
         }
     }
@@ -2086,6 +2121,7 @@ public class LimboActivity extends AppCompatActivity
         populateNetDevices(getMachine().getNetworkCard());
         SpinnerAdapter.setDiskAdapterValue(mCPUNum, getMachine().getCpuNum() + "");
         SpinnerAdapter.setDiskAdapterValue(mRamSize, getMachine().getMemory() + "");
+        SpinnerAdapter.setDiskAdapterValue(mVideoRamSize, getMachine().getVideoMemory() + "");
         seMachineDriveValue(FileType.KERNEL, getMachine().getKernel());
         seMachineDriveValue(FileType.INITRD, getMachine().getInitRd());
         if (getMachine().getAppend() != null)
@@ -2127,6 +2163,7 @@ public class LimboActivity extends AppCompatActivity
         SpinnerAdapter.setDiskAdapterValue(mBios, getMachine().getBios());
         SpinnerAdapter.setDiskAdapterValue(mNetConfig, getMachine().getNetwork());
         SpinnerAdapter.setDiskAdapterValue(mVGAConfig, getMachine().getVga());
+        SpinnerAdapter.setDiskAdapterValue(mUSBConfig, getMachine().getUsb());
         SpinnerAdapter.setDiskAdapterValue(mSoundCard, getMachine().getSoundCard());
         SpinnerAdapter.setDiskAdapterValue(mUI, getMachine().getEnableVNC() == 1 ? "VNC" : "SDL");
         SpinnerAdapter.setDiskAdapterValue(mMouse, fixMouseValue(getMachine().getMouse()));
@@ -2539,7 +2576,25 @@ public class LimboActivity extends AppCompatActivity
         mVGAConfig.setAdapter(vgaAdapter);
         mVGAConfig.invalidate();
     }
+    private void populateVideoRAM() {
+        String[] arraySpinner = new String[4 * 256];
+        arraySpinner[0] = 4 + "";
+        for (int i = 1; i < arraySpinner.length; i++) {
+            arraySpinner[i] = i * 16 + "";
+        }
+        ArrayAdapter<String> VideoramAdapter = new ArrayAdapter<>(this, R.layout.custom_spinner_item, arraySpinner);
+        VideoramAdapter.setDropDownViewResource(R.layout.custom_spinner_dropdown_item);
+        mVideoRamSize.setAdapter(VideoramAdapter);
+        mVideoRamSize.invalidate();
+    }
 
+    private void populateUSB() {
+        ArrayList<String> arrList = ArchDefinitions.getUSBValues(this);
+        ArrayAdapter<String> usbAdapter = new ArrayAdapter<>(this, R.layout.custom_spinner_item, arrList);
+        usbAdapter.setDropDownViewResource(R.layout.custom_spinner_dropdown_item);
+        mUSBConfig.setAdapter(usbAdapter);
+        mUSBConfig.invalidate();
+    }
     private void populateKeyboardLayout() {
         ArrayList<String> arrList = ArchDefinitions.getKeyboardValues(this);
         ArrayAdapter<String> keyboardAdapter = new ArrayAdapter<>(this, R.layout.custom_spinner_item, arrList);

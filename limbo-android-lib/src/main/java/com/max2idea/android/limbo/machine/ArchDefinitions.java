@@ -83,6 +83,7 @@ public class ArchDefinitions {
             vgaValues.add("cirrus");
             vgaValues.add("vmware");
             vgaValues.add("virtio");
+            vgaValues.add("virtio-gpu-pci");
             vgaValues.add("ramfb");
         }
 
@@ -187,5 +188,12 @@ public class ArchDefinitions {
                 break;
         }
         return arrList;
+    }
+    public static ArrayList<String> getUSBValues(Context context) {
+        ArrayList<String> usbValues = new ArrayList<>();
+        usbValues.add(context.getString(R.string.usbehci));
+        usbValues.add(context.getString(R.string.qemuxhci));
+        usbValues.add(context.getString(R.string.usbohci));
+        return usbValues;
     }
 }

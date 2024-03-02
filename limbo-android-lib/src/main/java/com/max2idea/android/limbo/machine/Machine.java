@@ -80,9 +80,11 @@ public class Machine extends Observable {
     private String hostFwd;
     //display
     private String vga = "std";
+    private int videoMemory = 1024;
     //sound
     private String soundCard = null;
     //extra qemu params
+    private String usb = "usb-ehci";
     private String extraParams;
     private int paused;
     private int sharedFolderMode;
@@ -586,7 +588,29 @@ public class Machine extends Observable {
         }
 
     }
+    public int getVideoMemory() {
+        return videoMemory;
+    }
 
+    public String getUsb() {
+        return usb;
+    }
+
+    void setUsb(String usb) {
+        if (this.usb == null || !this.usb.equals(usb)) {
+            this.usb = usb;
+            setChanged();
+            notifyChanged(MachineProperty.USB, usb);
+        }
+
+    }
+    void setVideoMemory(int videoMemory) {
+        if (this.videoMemory != videoMemory) {
+            this.videoMemory = videoMemory;
+            setChanged();
+            notifyChanged(MachineProperty.VIDEOMEMORY, videoMemory);
+        }
+    }
     public String getExtraParams() {
         return extraParams;
     }

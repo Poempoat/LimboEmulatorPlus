@@ -62,13 +62,13 @@
     <string name="EnableDesktopMode">启用桌面模式</string>
     <string name="EnableImmersiveMode">启用沉浸模式</string>
     <string name="EnableKVM">启用KVM</string>
-    <string name="EnableKVMWarning">警告！ 您将需要一个与模拟来宾具有相同架构的 Android 设备。 确保您已经安装了支持 KVM 的 Android 内核。 如果您不知道这是什么，请立即按取消。  如果您遇到崩溃，请禁用此选项。 你想继续吗？</string>
+    <string name="EnableKVMWarning">警告！ 您将需要一个与模拟来宾具有相同架构的 Android 设备。 确保您已经安装了支持 K虚拟机的 Android 内核。 如果您不知道这是什么，请立即按取消。  如果您遇到崩溃，请禁用此选项。 你想继续吗？</string>
     <string name="EnableLegacyFileManager">启用旧版文件管理器</string>
     <string name="EnableLegacyFileManagerSummary">为旧设备启用旧版文件管理器。可能不支持SD卡</string>
     <string name="EnableQMPForChangingDrives">在设置中启用 QMP 以更改可移动驱动器</string>
     <string name="EnableQMPForSavingVMState">从设置中打开 QMP 服务器以暂停虚拟机！</string>
     <string name="EnableQMPServer">启用QMP服务器</string>
-    <string name="EnableQMPServerSummary">运行 QMP 服务器。这需要为 VNC 设置密码，但是可以暂停 VM 和更改可移动驱动器。</string>
+    <string name="EnableQMPServerSummary">运行 QMP 服务器。这需要为 VNC 设置密码，但是可以暂停虚拟机和更改可移动驱动器。</string>
     <string name="EnableVNCPassword">启用VNC密码（推荐）</string>
     <string name="Error">错误</string>
     <string name="Exit">退出</string>
@@ -153,7 +153,7 @@
     <string name="PleaseWaitSavingVMState">正在保存虚拟机状态，请稍候</string>
     <string name="Portrait">纵向</string>
     <string name="PortraitReverse">纵向反转</string>
-    <string name="PressVolumeDownForRightClick">按音量下键作为右键单击</string>
+    <string name="PressVolumeDownForRightClick">使用音量下键作为鼠标右键</string>
     <string name="PreventMouseDescr">防止某些操作系统在使用“usb-tablet”鼠标并且指针超出屏幕边界时崩溃。 警告：如果来宾操作系统不支持“usb-tablet”，这可能会形成一堵看不见的墙。</string>
     <string name="PreventMouseOutOfBounds">防止鼠标越界</string>
     <string name="RAM">RAM内存（MB）</string>
@@ -200,9 +200,12 @@
     <string name="VNCPasswordNotEnabledWarning">VNC 密码未启用！ 您设备上的任何应用程序都可以查看和控制您的虚拟机！ 确保您信任设备上的应用程序，否则请在设置中设置密码。继续？</string>
     <string name="VNCReconnecting">VNC正在重新连接</string>
     <string name="VNCStarted">VNC已开始</string>
+    <string name="VideoRAM">显存（MB）</string>
+    <string name="VideoRAMtips">只有std、cirrus、vmware显卡支持设置显存。cirrus显卡最大显存16MB，高于这个值会崩。</string>
     <string name="ViewLog">查看日志</string>
     <string name="Volume">音量</string>
     <string name="Warning">警告</string>
+    <string name="Watermark">哔哩哔哩 系统只因家</string>
     <string name="WriteAccess">写权限</string>
     <string name="Yes">是</string>
     <string name="absolutePointerInstructions">确保虚拟机操作系统支持触摸屏设备！\n\\n           在启动机器之前，从 Limbo Plus中选择鼠标= \"usb-tablet\"。</string>
@@ -250,9 +253,9 @@
     <string name="devices">设备</string>
     <string name="disableACPI">禁用ACPI</string>
     <string name="disableHPET">禁用HPET</string>
-    <string name="disableTSC">启用AVX</string>
+    <string name="disableTSC">指令集优化</string>
     <string name="disableTSCInstructions">如果您的来宾操作系统无法启动，请检查选项“禁用TSC”并重新启动虚拟机。</string>
-    <string name="discardVMInstructions">VM 已暂停。 如果丢弃状态，则可能会丢失数据。 继续？</string>
+    <string name="discardVMInstructions">虚拟机已暂停。 如果丢弃状态，则可能会丢失数据。 继续？</string>
     <string name="discardVMState">丢弃虚拟机状态</string>
     <string name="disconnect">断开连接</string>
     <string name="disk">磁盘</string>
@@ -350,7 +353,7 @@
     <string name="ms90">90 毫秒</string>
     <string name="mttcgHelp">MTTCG帮助</string>
     <string name="multipleVCPU">多个虚拟CPU</string>
-    <string name="multipleVCPUWarning">警告！除非您使用 KVM 或 MTTCG，否则设置多个虚拟 CPU 不会带来额外的性能。您的设备甚至可能会变慢或虚拟机操作系统可能会挂起，因此建议使用 1 个 CPU。\n \n</string>
+    <string name="multipleVCPUWarning">警告！除非您使用 K虚拟机或 MTTCG，否则设置多个虚拟 CPU 不会带来额外的性能。您的设备甚至可能会变慢或虚拟机操作系统可能会挂起，因此建议使用 1 个 CPU。\n \n</string>
     <string name="network">网络</string>
     <string name="networkcard">网卡：</string>
     <string name="networktype">网络类型：</string>

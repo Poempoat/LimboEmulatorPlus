@@ -4,7 +4,7 @@
             "outputFile": "com.limbo.emu.plus.arm.limbo-android-arm-mergeDebugResources-15:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\4a3bd1f31f14ccae1d711d08d9fc88f2\\transformed\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\f2bf1a24ed118f857595eae08402c3a4\\transformed\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\cf9cd0f26b62ebfe3bde83f60ec0aec1\\transformed\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\dc47bdbbe01f0558e196fd5981401579\\transformed\\core-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

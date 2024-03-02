@@ -293,6 +293,9 @@ id userinterfaceheaderl
 id vgacfgStr
 id vgacfgl
 id vgacfgval
+id videorammemStr
+id videorammeml
+id videorammemval
 layout advanced_layout
 layout audio_layout
 layout board_layout
@@ -533,9 +536,12 @@ string VNCPasswordMissing
 string VNCPasswordNotEnabledWarning
 string VNCReconnecting
 string VNCStarted
+string VideoRAM
+string VideoRAMtips
 string ViewLog
 string Volume
 string Warning
+string Watermark
 string WriteAccess
 string Yes
 string Yukaidi
@@ -713,6 +719,7 @@ string password_caption
 string pauseVMWarning
 string paused
 string port_caption
+string qemuxhci
 string qmpExternalWarning
 string qmpServer
 string reassignDiskFilesInstructions
@@ -761,6 +768,8 @@ string ui
 string ui_mode
 string updates
 string usbctrl
+string usbehci
+string usbohci
 string use_keymapper
 string username_caption
 string username_hint

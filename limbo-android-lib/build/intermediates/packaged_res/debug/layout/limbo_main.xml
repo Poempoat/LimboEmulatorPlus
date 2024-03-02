@@ -55,6 +55,12 @@
                 <include layout="@layout/network_layout" />
 
                 <include layout="@layout/advanced_layout" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Watermark"
+                    android:gravity="center_horizontal"
+                    android:textSize="11sp" />
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
     </LinearLayout>

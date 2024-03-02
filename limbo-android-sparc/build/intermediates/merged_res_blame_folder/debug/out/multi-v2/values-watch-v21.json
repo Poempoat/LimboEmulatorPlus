@@ -4,7 +4,7 @@
             "outputFile": "com.limbo.emu.plus.sparc.limbo-android-sparc-mergeDebugResources-16:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\4a3bd1f31f14ccae1d711d08d9fc88f2\\transformed\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\f2bf1a24ed118f857595eae08402c3a4\\transformed\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

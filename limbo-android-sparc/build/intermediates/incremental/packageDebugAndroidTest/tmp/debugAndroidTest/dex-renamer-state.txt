@@ -1,7 +1,4 @@
-#Sat Jan 20 15:53:54 CST 2024
+#Sat Feb 03 18:47:47 CST 2024
 base.0=C\:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-sparc\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.1=C\:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-sparc\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\11\\classes.dex
 path.0=0/classes.dex
-path.1=11/classes.dex
 renamed.0=classes.dex
-renamed.1=classes2.dex

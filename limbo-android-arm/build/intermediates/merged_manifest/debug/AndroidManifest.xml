@@ -27,12 +27,14 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
+        android:extractNativeLibs="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/limbo"
         android:label="Limbo ARM Emulator"
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/limbo_circle"
+        android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
             android:name="com.limbo.emu.plus.arm.LimboEmuActivity"

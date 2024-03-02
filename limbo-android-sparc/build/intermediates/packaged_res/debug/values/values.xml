@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DebianSparcLinux">Debian Sparc Linux</string>
+    <string name="DebianSparcLinuxDescr">A Linux-based light weight OS with Desktop Manager, network, and package manager</string>
+    <string name="app_name">Limbo Sparc Emulator</string>
+    <string name="app_short_name">Limbo SPARC</string>
+    <style name="Transparent" parent="@android:style/Theme.Dialog"/>
+    <style name="leftEllipsisSimpleSpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:ellipsize">start</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="leftEllipsisSpinnerDropDownItem" parent="@android:style/Widget.DropDownItem.Spinner">
+        <item name="android:ellipsize">start</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

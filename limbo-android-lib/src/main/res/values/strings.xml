@@ -388,7 +388,7 @@
     <string name="ImportBIOSFile">Import BIOS</string>
     <string name="importBIOSInstructions">Select a BIOS file (bin, rom, etc..) to import.</string>
     <string name="save_snapshot">Save Snapshot</string>
-    <string name="disableTSC">Enable AVX</string>
+    <string name="disableTSC">ISA Optimization</string>
     <string name="disableHPET">Disable HPET</string>
     <string name="disks">Disks</string>
     <string name="hda">Hard Disk A:</string>
@@ -446,4 +446,10 @@
     <string name="ExportWarn">Warning: Configurations exported from Limbo Emulator Plus may not be imported into the original or other versions of Limbo Emulator, or even different versions of Limbo Emulator Plus!</string>
     <string name="select">Select</string>
     <string name="lanzoupwd">Password: 5kat</string>
+    <string name="VideoRAM">Video Memory (MB)</string>
+    <string name="VideoRAMtips">Only std, cirrus, and vmware graphics cards allow adjusting video memory. For cirrus cards, the maximum supported video memory is 16MB, exceeding this limit could cause a crash.</string>
+    <string name="usbehci" translatable="false">usb-ehci</string>
+    <string name="qemuxhci" translatable="false">qemu-xhci</string>
+    <string name="usbohci" translatable="false">usb-ohci</string>
+    <string name="Watermark">Bilibili 系统只因家</string>
 </resources>

@@ -1,18 +1,20 @@
 {
-  "version": 2,
+  "version": 3,
   "artifactType": {
     "type": "APK",
     "kind": "Directory"
   },
   "applicationId": "com.limbo.emu.plus",
-  "variantName": "processDebugResources",
+  "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 20003,
-      "versionName": "2.0.3-x86-debug",
+      "attributes": [],
+      "versionCode": 20004,
+      "versionName": "2.0.4-x86",
       "outputFile": "limbo-android-x86-debug.apk"
     }
-  ]
+  ],
+  "elementType": "File"
 }

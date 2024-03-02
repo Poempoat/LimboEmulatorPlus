@@ -4,7 +4,7 @@
             "outputFile": "com.limbo.emu.plus.ppc.limbo-android-ppc-mergeDebugResources-16:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\4a3bd1f31f14ccae1d711d08d9fc88f2\\transformed\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\f2bf1a24ed118f857595eae08402c3a4\\transformed\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\91f1642e2a270776e556d15371f64bf4\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\5db9664ebfb3462e23bba753e9b8528a\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

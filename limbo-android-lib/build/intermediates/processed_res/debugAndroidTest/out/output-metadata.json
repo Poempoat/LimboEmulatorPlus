@@ -13,7 +13,7 @@
       "attributes": [],
       "versionCode": 0,
       "versionName": "",
-      "outputFile": "resources-debugAndroidTest.ap_"
+      "outputFile": "resources.ap_"
     }
   ],
   "elementType": "File"

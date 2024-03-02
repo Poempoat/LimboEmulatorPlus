@@ -88,5 +88,37 @@
                 android:text=""
                 android:textSize="15sp" />
         </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/videorammeml"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/videorammemStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/VideoRAM"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/videorammemval"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:singleLine="true"
+                android:text=""
+                android:textSize="15sp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/VideoRAMtips"
+            android:textSize="12sp" />
     </LinearLayout>
 </LinearLayout>

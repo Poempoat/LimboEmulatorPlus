@@ -12,6 +12,7 @@ public class LimboEmuActivity extends LimboActivity {
         LimboApplication.arch = Config.Arch.x86_64;
         Config.clientClass = this.getClass();
         Config.enableKVM = true;
+        Config.enableEmulatedSDCard = true;
         //XXX; only for 64bit hosts, also make sure you have qemu 3.1.0 x86_64-softmmu and above compiled
         if(LimboApplication.isHost64Bit() && Config.enableMTTCG)
             Config.enableMTTCG = true;

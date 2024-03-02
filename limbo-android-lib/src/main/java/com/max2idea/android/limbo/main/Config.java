@@ -76,7 +76,6 @@ public class Config {
 
     public static final String defaultDNSServer = "1.1.1.1";
     // App Config
-    public static final String downloadLink = "https://github.com/limboemu/limbo/wiki/Downloads";
 
     public static final String dnLinks = "https://limboplus.xtzyj.top/#/?id=downloads";
 
@@ -84,7 +83,7 @@ public class Config {
     public static final String guidesLink = "https://limboplus.xtzyj.top";
     public static final String kvmLink = "https://github.com/limboemu/limbo/wiki/KVM";
     public static final String faqLink = "https://github.com/limboemu/limbo/wiki/FAQ";
-    public static final String toolsLink = "https://github.com/limboemu/limbo/wiki/Tools";
+    public static final String toolsLink = "https://pan.yukaidi.com/s/qNEpt6";
     public static final String newVersionLink = "https://raw.githubusercontent.com/Poempoat/LimboEmulator/Plus/master/VERSION";
     public static final String otherOSLink = "https://github.com/limboemu/limbo/wiki/Other-Operating-Systems";
 
@@ -147,7 +146,6 @@ public class Config {
     public static boolean showToast = false;
     public static boolean closeFileDescriptors = true;
     //XXX: qemu vvfat is buggy so we disable
-    public static boolean enableSharedFolder = true;
 
     public static String machineFolder = "machines/";
     public static String logFilePath = null;

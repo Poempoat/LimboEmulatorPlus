@@ -5,7 +5,6 @@
 5    android:installLocation="auto" >
 6
 7    <uses-sdk android:minSdkVersion="21" />
-7-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml
 8
 9    <uses-permission android:name="android.permission.INTERNET" />
 9-->C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-lib\src\main\AndroidManifest.xml:7:5-67

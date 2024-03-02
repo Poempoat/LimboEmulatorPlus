@@ -1,13 +1,10 @@
-#Sun Jan 21 11:09:45 CST 2024
+#Sat Mar 02 16:47:54 CST 2024
 base.0=C\:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-lib\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
 base.1=C\:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-lib\\build\\intermediates\\dex\\debugAndroidTest\\mergeLibDexDebugAndroidTest\\0\\classes.dex
 base.2=C\:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-lib\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-base.3=C\:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-lib\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\6\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex
-path.3=6/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex
-renamed.3=classes4.dex

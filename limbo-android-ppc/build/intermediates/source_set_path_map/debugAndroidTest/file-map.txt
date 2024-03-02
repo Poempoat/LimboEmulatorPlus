@@ -1,0 +1,4 @@
+com.limbo.emu.plus.ppc.test.limbo-android-ppc-androidTest-0 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-ppc\build\generated\res\resValues\androidTest\debug
+com.limbo.emu.plus.ppc.test.limbo-android-ppc-mergeDebugAndroidTestResources-1 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-ppc\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.limbo.emu.plus.ppc.test.limbo-android-ppc-mergeDebugAndroidTestResources-2 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-ppc\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.limbo.emu.plus.ppc.test.limbo-android-ppc-merged_res-3 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-ppc\build\intermediates\merged_res\debugAndroidTest

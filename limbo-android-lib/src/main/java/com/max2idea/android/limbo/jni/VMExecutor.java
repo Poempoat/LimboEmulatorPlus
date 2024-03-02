@@ -214,7 +214,7 @@ private String getQemuLibrary() {
             paramsList.add("-monitor");
             paramsList.add("vc");
             paramsList.add("-device");
-            paramsList.add("qemu-xhci,id=xhci");
+            paramsList.add(getMachine().getUsb() + ",id=usbctrl");
             paramsList.add("-device");
             paramsList.add("sdhci-pci,id=sdpci");
         } else {
@@ -228,7 +228,7 @@ private String getQemuLibrary() {
             paramsList.add("-parallel");
             paramsList.add("none");
             paramsList.add("-device");
-            paramsList.add("qemu-xhci,id=xhci");
+            paramsList.add(getMachine().getUsb() + ",id=usbctrl");
             paramsList.add("-device");
             paramsList.add("sdhci-pci,id=sdpci");
         }
@@ -240,7 +240,7 @@ private String getQemuLibrary() {
 
         if (getMachine().getMouse() != null && !getMachine().getMouse().equals("ps2")) {
             paramsList.add("-device");
-            paramsList.add(getMachine().getMouse() + ",bus=xhci.0");
+            paramsList.add(getMachine().getMouse() + ",bus=usbctrl.0");
         }
     }
 
@@ -338,7 +338,7 @@ private String getQemuLibrary() {
                 else if (LimboApplication.arch == Config.Arch.x86_64)
                     cpu = "qemu64";
             }
-            cpu += ",+avx,+avx2,+avx512f,+avx512cd,+avx512dq,+avx512bw,+avx512vl,+avx512vnni";
+            cpu += ",-mmx,-3dnow,-sse2,-sse3,-sse4.1,-avx,-aes,-popcnt,-rdrand,-movbe,-rdtscp,-xsave,-xsaveopt,-xsaves,-xgetbv1,-fsgsbase,-avx512f,-avx512cd,-avx512dq,-avx512bw,-avx512vl,-avx512ifma,-avx512vbmi,-avx512vnni";
         }
 
         if (getMachine().getDisableAcpi() != 0) {
@@ -474,15 +474,31 @@ private String getQemuLibrary() {
                 //do nothing
             } else if (getMachine().getVga().equals("virtio-gpu-pci")) {
                 paramsList.add("-device");
-                paramsList.add(getMachine().getVga());
+                paramsList.add("virtio-gpu-pci");
             } else if (getMachine().getVga().equals("nographic")) {
                 paramsList.add("-nographic");
             } else if (getMachine().getVga().equals("ramfb")) {
                 paramsList.add("-device");
                 paramsList.add("ramfb");
-            } else {
-                paramsList.add("-vga");
-                paramsList.add(getMachine().getVga());
+            }
+            else if (getMachine().getVga().equals("std")) {
+                paramsList.add("-device");
+                paramsList.add("VGA" + ",vgamem_mb=" + getMachine().getVideoMemory());
+            } else if (getMachine().getVga().equals("vmware")) {
+                paramsList.add("-device");
+                paramsList.add("vmware-svga" + ",vgamem_mb=" + getMachine().getVideoMemory());
+            }
+            else if (getMachine().getVga().equals("cirrus")) {
+                paramsList.add("-device");
+                paramsList.add("cirrus-vga" + ",vgamem_mb=" + getMachine().getVideoMemory());
+            }
+            else if (getMachine().getVga().equals("virtio")) {
+                paramsList.add("-device");
+                paramsList.add("virtio-vga");
+            }
+            else {
+                paramsList.add("-device");
+                paramsList.add(getMachine().getVga() + "-vga");
             }
         }
     }
@@ -618,7 +634,7 @@ private String getQemuLibrary() {
     }
 
     public void addSharedFolder(ArrayList<String> paramsList, String sharedFolderPath) {
-        if (Config.enableSharedFolder && sharedFolderPath != null) {
+        if (sharedFolderPath != null) {
             //XXX; We use hdd to mount any virtual fat drives
             paramsList.add("-drive"); //empty
             String driveParams = "index=3";

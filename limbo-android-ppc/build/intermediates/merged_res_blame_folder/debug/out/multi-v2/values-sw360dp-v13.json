@@ -4,7 +4,7 @@
             "outputFile": "com.limbo.emu.plus.ppc.limbo-android-ppc-mergeDebugResources-16:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\b5971bb91c4e95ef7b0375f30f8f71a1\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\a53a9d738cc309f155967a3657a18706\\transformed\\preference-1.1.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

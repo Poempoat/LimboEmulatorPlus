@@ -124,7 +124,7 @@
     <string name="advancedTools">高级工具</string>
     <string name="linksInstructions">获取完整的 Qwerty 键盘、ISO 和虚拟磁盘映像的下载管理器、用于网络连接的 SSH/FTP 客户端</string>
     <string name="discardVMState">丢弃虚拟机状态</string>
-    <string name="discardVMInstructions">VM 已暂停。 如果丢弃状态，则可能会丢失数据。 继续？</string>
+    <string name="discardVMInstructions">虚拟机已暂停。 如果丢弃状态，则可能会丢失数据。 继续？</string>
     <string name="tapUserId">TAP用户ID</string>
     <string name="tapNotSupportInstructions">“您的设备不支持 TAP，请改用‘User’网络模式”</string>
     <string name="network">网络</string>
@@ -152,7 +152,7 @@
     <string name="deleteVMWarning">你要删除虚拟机吗？ 只会删除机器配置文件和状态，不会删除磁盘映像文件</string>
     <string name="NoMachineSelected">没有机器已选中</string>
     <string name="multipleVCPU">多个虚拟CPU</string>
-    <string name="multipleVCPUWarning">警告！除非您使用 KVM 或 MTTCG，否则设置多个虚拟 CPU 不会带来额外的性能。您的设备甚至可能会变慢或虚拟机操作系统可能会挂起，因此建议使用 1 个 CPU。\n \n</string>
+    <string name="multipleVCPUWarning">警告！除非您使用 K虚拟机或 MTTCG，否则设置多个虚拟 CPU 不会带来额外的性能。您的设备甚至可能会变慢或虚拟机操作系统可能会挂起，因此建议使用 1 个 CPU。\n \n</string>
     <string name="disableTSCInstructions">如果您的来宾操作系统无法启动，请检查选项“禁用TSC”并重新启动虚拟机。</string>
     <string name="DoYouWantToContinue">你要继续吗？</string>
     <string name="vCPUHelp">虚拟CPU帮助</string>
@@ -202,7 +202,7 @@
     <string name="PleaseWaitSavingVMState">正在保存虚拟机状态，请稍候</string>
     <string name="AllowExternalVNCConnections">允许外部VNC连接</string>
     <string name="AllowExternalVNCSummary">允许外部 VNC 客户端。 需要重新启动应用程序。 包括密码在内的 VNC 连接未加密，因此请仅在您信任的专用网络中使用！</string>
-    <string name="EnableQMPServerSummary">运行 QMP 服务器。这需要为 VNC 设置密码，但是可以暂停 VM 和更改可移动驱动器。</string>
+    <string name="EnableQMPServerSummary">运行 QMP 服务器。这需要为 VNC 设置密码，但是可以暂停虚拟机和更改可移动驱动器。</string>
     <string name="EnableQMPServer">启用QMP服务器</string>
     <string name="AllowExternalQMPConnectionsSummary">允许外部 QMP 客户端。需要重新启动应用程序。连接未加密，因此只能在您信任的专用网络中使用！</string>
     <string name="AllowExternalQMPConnections">允许外部QMP连接</string>
@@ -237,7 +237,7 @@
     <string name="VNCPasswordMissing">在设置中缺少VNC密码！</string>
     <string name="VNCPasswordNotEnabledWarning">VNC 密码未启用！ 您设备上的任何应用程序都可以查看和控制您的虚拟机！ 确保您信任设备上的应用程序，否则请在设置中设置密码。继续？</string>
     <string name="ExternalVNCEnabledWarning">您已启用外部 VNC。 同一网络上的任何人都可以读取您的 VNC 密码并控制您的虚拟机！确保您信任您的网络。继续？</string>
-    <string name="EnableKVMWarning">警告！ 您将需要一个与模拟来宾具有相同架构的 Android 设备。 确保您已经安装了支持 KVM 的 Android 内核。 如果您不知道这是什么，请立即按取消。  如果您遇到崩溃，请禁用此选项。 你想继续吗？</string>
+    <string name="EnableKVMWarning">警告！ 您将需要一个与模拟来宾具有相同架构的 Android 设备。 确保您已经安装了支持 K虚拟机的 Android 内核。 如果您不知道这是什么，请立即按取消。  如果您遇到崩溃，请禁用此选项。 你想继续吗？</string>
     <string name="EnableKVM">启用KVM</string>
     <string name="server">服务器</string>
     <string name="ExtraParams">额外参数</string>
@@ -320,7 +320,7 @@
     <string name="AccessDeniedCannotRetrieveDirectory">拒绝访问：无法检索目录</string>
     <string name="DirNameCannotBeEmpty">目录名称不能为空</string>
     <string name="DirectoryAlreadyExists">目录已存在！</string>
-    <string name="PressVolumeDownForRightClick">按音量下键作为右键单击</string>
+    <string name="PressVolumeDownForRightClick">使用音量下键作为鼠标右键</string>
     <string name="NoRemovableDevicesAttached">没有连接可移动设备</string>
     <string name="MapperExistsChooseAnotherName">映射器名称已存在，请选择其他名称</string>
     <string name="ClearedKey">按键已清空</string>
@@ -381,7 +381,7 @@
     <string name="cpucores">CPU核心数：</string>
     <string name="RAM">RAM内存（MB）</string>
     <string name="disableACPI">禁用ACPI</string>
-    <string name="disableTSC">启用AVX</string>
+    <string name="disableTSC">指令集优化</string>
     <string name="disableHPET">禁用HPET</string>
     <string name="disks">磁盘</string>
     <string name="hda">硬盘A：</string>
@@ -436,5 +436,8 @@
     <string name="ExportWarn">警告：从Limbo Emulator Plus导出的配置可能无法导入原版或其它版本的Limbo，甚至可能无法跨Plus版本导入！</string>
     <string name="select">选择</string>
     <string name="lanzoupwd">密码：5kat</string>
+    <string name="VideoRAM">显存（MB）</string>
+    <string name="VideoRAMtips">只有std、cirrus、vmware显卡支持设置显存。cirrus显卡最大显存16MB，高于这个值会崩。</string>
+    <string name="Watermark">哔哩哔哩 系统只因家</string>
 
 </resources>

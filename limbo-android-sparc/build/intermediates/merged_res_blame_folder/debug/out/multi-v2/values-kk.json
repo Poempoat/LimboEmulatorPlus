@@ -4,24 +4,7 @@
             "outputFile": "com.limbo.emu.plus.sparc.limbo-android-sparc-mergeDebugResources-16:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\cf9cd0f26b62ebfe3bde83f60ec0aec1\\transformed\\core-1.1.0\\res\\values-kk\\values-kk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "34",
-                        "startColumns": "4",
-                        "startOffsets": "3254",
-                        "endColumns": "100",
-                        "endOffsets": "3350"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\4a3bd1f31f14ccae1d711d08d9fc88f2\\transformed\\appcompat-1.1.0\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\f2bf1a24ed118f857595eae08402c3a4\\transformed\\appcompat-1.1.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\b5971bb91c4e95ef7b0375f30f8f71a1\\transformed\\preference-1.1.1\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\a53a9d738cc309f155967a3657a18706\\transformed\\preference-1.1.1\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2796,2866,2952,3030,3355,3524,3608",
                         "endColumns": "69,85,77,142,168,83,79",
                         "endOffsets": "2861,2947,3025,3168,3519,3603,3683"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\liuji\\.gradle\\caches\\transforms-3\\dc47bdbbe01f0558e196fd5981401579\\transformed\\core-1.1.0\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "34",
+                        "startColumns": "4",
+                        "startOffsets": "3254",
+                        "endColumns": "100",
+                        "endOffsets": "3350"
                     }
                 }
             ]

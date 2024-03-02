@@ -200,7 +200,9 @@ public class MachineImporter {
                             case "APPEND":
                                 mach.setAppend(machineAttr[i].replace("\"", ""));
                                 break;
-
+                            case "USB":
+                                mach.setUsb(machineAttr[i].replace("\"", ""));
+                                break;
                             // Extra Params
                             case "EXTRA_PARAMS":
                                 mach.setExtraParams(machineAttr[i].replace("\"", ""));
