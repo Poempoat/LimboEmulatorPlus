@@ -333,6 +333,33 @@ public class LimboActivityCommon {
             ScrollView view = new ScrollView(activity);
             view.addView(textView);
             alertDialog.setView(view);
+            alertDialog.setButton(DialogInterface.BUTTON_NEUTRAL, activity.getString(R.string.CHANGELOG_OLD),
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which) {
+                            showChangelogOld(activity);
+                        }
+                    });
+            alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, activity.getString(android.R.string.ok),
+                    (DialogInterface.OnClickListener) null);
+            alertDialog.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public static void showChangelogOld(Activity activity) {
+        try {
+            AlertDialog alertDialog;
+            alertDialog = new AlertDialog.Builder(activity).create();
+            alertDialog.setTitle(activity.getString(R.string.CHANGELOG_OLD));
+            alertDialog.setCanceledOnTouchOutside(false);
+            TextView textView = new TextView(activity);
+            textView.setPadding(20, 20, 20, 20);
+            textView.setText(FileUtils.LoadFile(activity, "CHANGELOG_OLD", false));
+            textView.setBackgroundColor(Color.WHITE);
+            textView.setTextColor(Color.BLACK);
+            ScrollView view = new ScrollView(activity);
+            view.addView(textView);
+            alertDialog.setView(view);
             alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, activity.getString(android.R.string.ok),
                     (DialogInterface.OnClickListener) null);
             alertDialog.show();
