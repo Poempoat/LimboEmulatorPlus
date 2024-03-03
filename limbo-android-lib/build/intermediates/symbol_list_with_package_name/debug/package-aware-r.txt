@@ -31,6 +31,7 @@ drawable exit
 drawable exportvms
 drawable floppy
 drawable folder
+drawable github
 drawable harddisk
 drawable help
 drawable ic_launcher_background
@@ -38,6 +39,7 @@ drawable ic_launcher_foreground
 drawable importvms
 drawable install
 drawable keyboard
+drawable lanzou
 drawable limbo
 drawable limbo_circle
 drawable machinetype
@@ -59,10 +61,12 @@ drawable shutdown
 drawable snapshot
 drawable stop
 drawable sysfile
+drawable telegram
 drawable terminal
 drawable ui
 drawable user
 drawable userinfo
+drawable yukaidi
 id FILE_ICON
 id FILE_NAME
 id LINK_DESCR

@@ -92,7 +92,7 @@ public class UpdateChecker {
         alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, activity.getString(R.string.GenNewVersion),
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        Downloads.showDownloads(activity);
+                        com.max2idea.android.limbo.downloads.Downloads.showDownloads(activity);
                     }
                 });
         alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, activity.getString(R.string.DoNotShowAgain),

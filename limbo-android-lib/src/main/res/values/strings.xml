@@ -421,7 +421,7 @@
     <string name="parentdir">.. (Parent Directory)</string>
     <string name="boot_From">"Boot From: "</string>
     <string name="video_card">Video Card:</string>
-    <string name="usbctrl">USB Controller:</string>
+    <string name="usbctrl">USB Controller: </string>
     <string name="language">Language</string>
     <string name="ForceSimplifiedChineseSummary">Force Simplified Chinese</string>
     <string name="ForceSimplifiedChinese">Forcibly switch the display language to Simplified Chinese</string>

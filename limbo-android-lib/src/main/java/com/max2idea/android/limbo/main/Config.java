@@ -19,6 +19,7 @@ Copyright (C) Max Kastanas 2012
 package com.max2idea.android.limbo.main;
 
 import com.max2idea.android.limbo.links.LinksManager;
+import com.max2idea.android.limbo.links.LinksManager2;
 
 import java.util.LinkedHashMap;
 
@@ -173,6 +174,7 @@ public class Config {
     public static boolean enableMTTCG = true;
 
     public static LinkedHashMap<String, LinksManager.LinkInfo> osImages = new LinkedHashMap<>();
+    public static LinkedHashMap<String, LinksManager2.LinkInfo> downloadLinks = new LinkedHashMap<>();
 
     public static boolean processMouseHistoricalEvents = false;
 

@@ -424,7 +424,7 @@
     <string name="ui">用户界面</string>
     <string name="ui_mode">用户界面模式</string>
     <string name="updates">更新</string>
-    <string name="usbctrl">USB控制器</string>
+    <string name="usbctrl">USB控制器：</string>
     <string name="use_keymapper">使用按键映射器</string>
     <string name="username_caption">用户名</string>
     <string name="username_hint">用于 Windows 身份验证</string>

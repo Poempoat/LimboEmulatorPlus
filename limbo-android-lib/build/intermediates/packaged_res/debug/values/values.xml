@@ -523,7 +523,7 @@
     <string name="ui">User Interface</string>
     <string name="ui_mode">UI Mode</string>
     <string name="updates">Updates</string>
-    <string name="usbctrl">USB Controller:</string>
+    <string name="usbctrl">USB Controller: </string>
     <string name="usbehci" translatable="false">usb-ehci</string>
     <string name="usbohci" translatable="false">usb-ohci</string>
     <string name="use_keymapper">Use Key Mapper</string>

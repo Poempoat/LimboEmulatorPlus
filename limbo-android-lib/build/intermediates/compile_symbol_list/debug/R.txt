@@ -30,6 +30,7 @@ int drawable exit 0x0
 int drawable exportvms 0x0
 int drawable floppy 0x0
 int drawable folder 0x0
+int drawable github 0x0
 int drawable harddisk 0x0
 int drawable help 0x0
 int drawable ic_launcher_background 0x0
@@ -37,6 +38,7 @@ int drawable ic_launcher_foreground 0x0
 int drawable importvms 0x0
 int drawable install 0x0
 int drawable keyboard 0x0
+int drawable lanzou 0x0
 int drawable limbo 0x0
 int drawable limbo_circle 0x0
 int drawable machinetype 0x0
@@ -58,10 +60,12 @@ int drawable shutdown 0x0
 int drawable snapshot 0x0
 int drawable stop 0x0
 int drawable sysfile 0x0
+int drawable telegram 0x0
 int drawable terminal 0x0
 int drawable ui 0x0
 int drawable user 0x0
 int drawable userinfo 0x0
+int drawable yukaidi 0x0
 int id FILE_ICON 0x0
 int id FILE_NAME 0x0
 int id LINK_DESCR 0x0

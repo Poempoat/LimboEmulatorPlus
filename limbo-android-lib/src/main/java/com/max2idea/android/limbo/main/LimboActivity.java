@@ -67,6 +67,7 @@ import com.max2idea.android.limbo.help.Help;
 import com.max2idea.android.limbo.install.Installer;
 import com.max2idea.android.limbo.keyboard.KeyboardUtils;
 import com.max2idea.android.limbo.links.LinksManager;
+import com.max2idea.android.limbo.links.LinksManager2;
 import com.max2idea.android.limbo.log.Logger;
 import com.max2idea.android.limbo.machine.ArchDefinitions;
 import com.max2idea.android.limbo.machine.BIOSImporter;
@@ -1350,6 +1351,12 @@ public class LimboActivity extends AppCompatActivity
         }
     }
 
+    public void showDownloads() {
+        if (!Config.downloadLinks.isEmpty()) {
+            LinksManager2 manager = new LinksManager2(this);
+            manager.show();
+        }
+    }
     private void onDeleteMachine() {
         if (getMachine() == null) {
             ToastUtils.toastShort(this, getString(R.string.SelectAMachineFirst));
@@ -2045,7 +2052,7 @@ public class LimboActivity extends AppCompatActivity
             mAdvancedSectionSummary.setText("");
         else {
             String
-                text = getString(R.string.usbctrl) + ": " + getMachine().getUsb();
+                text = getString(R.string.usbctrl) + getMachine().getUsb();
             if (getMachine().getExtraParams() != null
                     && !getMachine().getExtraParams().equals(""))
                 text = appendOption( getString(R.string.ExtraParams) + ": " + getMachine().getExtraParams(), text);
@@ -2789,7 +2796,7 @@ public class LimboActivity extends AppCompatActivity
         } else if (item.getItemId() == HELP) {
             Help.showHelp(this);
         } else if (item.getItemId() == DOWNLOAD) {
-            Downloads.showDownloads(this);
+            showDownloads();
         } else if (item.getItemId() == OSLIST) {
             showOperatingSystems();
         } else if (item.getItemId() == VIEWLOG) {

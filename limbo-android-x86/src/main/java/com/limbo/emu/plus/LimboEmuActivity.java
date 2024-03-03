@@ -2,6 +2,7 @@ package com.limbo.emu.plus;
 
 import android.os.Bundle;
 
+import com.max2idea.android.limbo.links.LinksManager2;
 import com.max2idea.android.limbo.log.Logger;
 import com.max2idea.android.limbo.main.Config;
 import com.max2idea.android.limbo.main.LimboActivity;
@@ -13,6 +14,26 @@ public class LimboEmuActivity extends LimboActivity {
         Config.clientClass = this.getClass();
         Config.enableKVM = true;
         Config.enableEmulatedSDCard = true;
+        Config.downloadLinks.put(getString(com.limbo.emu.lib.R.string.GoToWiki), new LinksManager2.LinkInfo(getString(com.limbo.emu.lib.R.string.GoToWiki),
+                "",
+                "https://limboplus.xtzyj.top/#/?id=downloads",
+                LinksManager2.LinkType.SITE));
+        Config.downloadLinks.put("GitHub", new LinksManager2.LinkInfo("GitHub",
+                "GitHub Releases",
+                "https://github.com/Poempoat/LimboEmulatorPlus/releases",
+                LinksManager2.LinkType.GITHUB));
+        Config.downloadLinks.put("Telegram", new LinksManager2.LinkInfo(getString(com.limbo.emu.lib.R.string.Telegram),
+                "Telegram Channel @limboemuplus",
+                "https://t.me/limboemuplus",
+                LinksManager2.LinkType.TELEGRAM));
+        Config.downloadLinks.put(getString(com.limbo.emu.lib.R.string.Yukaidi), new LinksManager2.LinkInfo(getString(com.limbo.emu.lib.R.string.Yukaidi),
+                "",
+                "https://pan.yukaidi.com/s/3vlrSB",
+                LinksManager2.LinkType.YUKAIDI));
+        Config.downloadLinks.put(getString(com.limbo.emu.lib.R.string.lanzou), new LinksManager2.LinkInfo(getString(com.limbo.emu.lib.R.string.lanzou),
+                getString(com.limbo.emu.lib.R.string.lanzoupwd),
+                "https://xtzyj.lanzouu.com/b02k2wazc",
+                LinksManager2.LinkType.LANZOU));
         //XXX; only for 64bit hosts, also make sure you have qemu 3.1.0 x86_64-softmmu and above compiled
         if(LimboApplication.isHost64Bit() && Config.enableMTTCG)
             Config.enableMTTCG = true;
