@@ -107,13 +107,14 @@ public class LimboActivity extends AppCompatActivity
     private static final int CHANGELOG = 6;
 
     private static final int LICENSE = 7;
-    private static final int DOWNLOAD = 8;
-    private static final int VIEWLOG = 9;
-    private static final int CREATE = 10;
-    private static final int DISCARD_VM_STATE = 12;
-    private static final int SETTINGS = 14;
-    private static final int TOOLS = 15;
-    private static final int IMPORT_BIOS_FILE = 16;
+    private static final int OSLIST = 8;
+    private static final int DOWNLOAD = 9;
+    private static final int VIEWLOG = 10;
+    private static final int CREATE = 11;
+    private static final int DISCARD_VM_STATE = 13;
+    private static final int SETTINGS = 15;
+    private static final int TOOLS = 16;
+    private static final int IMPORT_BIOS_FILE = 17;
 
     // disk mapping
     private static final Hashtable<FileType, DiskInfo> diskMapping = new Hashtable<>();
@@ -2752,6 +2753,7 @@ public class LimboActivity extends AppCompatActivity
         menu.add(0, VIEWLOG, 0, R.string.ViewLog).setIcon(android.R.drawable.ic_menu_view);
         menu.add(0, HELP, 0, R.string.help).setIcon(R.drawable.help);
         menu.add(0, CHANGELOG, 0, R.string.Changelog).setIcon(android.R.drawable.ic_menu_help);
+        menu.add(0, OSLIST, 0, R.string.OSLIST).setIcon(R.drawable.exportvms);
         menu.add(0, DOWNLOAD, 0, R.string.Downloads).setIcon(android.R.drawable.ic_menu_help);
         menu.add(0, LICENSE, 0, R.string.License).setIcon(android.R.drawable.ic_menu_help);
         menu.add(0, QUIT, 0, R.string.Exit).setIcon(android.R.drawable.ic_lock_power_off);
@@ -2788,6 +2790,8 @@ public class LimboActivity extends AppCompatActivity
             Help.showHelp(this);
         } else if (item.getItemId() == DOWNLOAD) {
             Downloads.showDownloads(this);
+        } else if (item.getItemId() == OSLIST) {
+            showOperatingSystems();
         } else if (item.getItemId() == VIEWLOG) {
             Logger.viewLimboLog(LimboActivity.this);
         } else if (item.getItemId() == CHANGELOG) {

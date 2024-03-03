@@ -346,6 +346,7 @@ string Audio
 string AudioCard
 string Auto
 string CHANGELOG
+string CHANGELOG_OLD
 string CPUModel
 string Cancel
 string CannotDeletePreviousStateFile
@@ -476,6 +477,7 @@ string NoMachineSelected
 string NoRemovableDevicesAttached
 string NoVMSelectedRestart
 string NotADirectory
+string OSLIST
 string Ok
 string OkIUnderstand
 string Password

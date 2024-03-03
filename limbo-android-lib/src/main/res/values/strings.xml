@@ -452,4 +452,6 @@
     <string name="qemuxhci" translatable="false">qemu-xhci</string>
     <string name="usbohci" translatable="false">usb-ohci</string>
     <string name="Watermark">Bilibili 系统只因家</string>
+    <string name="CHANGELOG_OLD">Historical Changelog</string>
+    <string name="OSLIST">Operating Systems</string>
 </resources>

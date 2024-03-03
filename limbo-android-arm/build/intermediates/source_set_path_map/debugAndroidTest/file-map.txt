@@ -1,4 +1,0 @@
-com.limbo.emu.plus.arm.test.limbo-android-arm-androidTest-0 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-arm\build\generated\res\resValues\androidTest\debug
-com.limbo.emu.plus.arm.test.limbo-android-arm-mergeDebugAndroidTestResources-1 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-arm\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.limbo.emu.plus.arm.test.limbo-android-arm-mergeDebugAndroidTestResources-2 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-arm\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.limbo.emu.plus.arm.test.limbo-android-arm-merged_res-3 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-arm\build\intermediates\merged_res\debugAndroidTest

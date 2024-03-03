@@ -12,6 +12,7 @@
     <string name="AudioCard">声卡</string>
     <string name="Auto">自动</string>
     <string name="CHANGELOG">更新日志</string>
+    <string name="CHANGELOG_OLD">历史更新日志</string>
     <string name="CPUModel">CPU型号：</string>
     <string name="Cancel">取消</string>
     <string name="CannotDeletePreviousStateFile">无法删除以前的状态文件</string>
@@ -141,6 +142,7 @@
     <string name="NoRemovableDevicesAttached">没有连接可移动设备</string>
     <string name="NoVMSelectedRestart">没有虚拟机被选中，重启Limbo Plus！</string>
     <string name="NotADirectory">不是一个目录</string>
+    <string name="OSLIST">操作系统</string>
     <string name="Ok">确定</string>
     <string name="OkIUnderstand">是，我明白了</string>
     <string name="Password">密码</string>

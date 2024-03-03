@@ -2043,6 +2043,9 @@ id userinterfaceheaderl
 id vgacfgStr
 id vgacfgl
 id vgacfgval
+id videorammemStr
+id videorammeml
+id videorammemval
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2445,9 +2448,12 @@ string VNCPasswordMissing
 string VNCPasswordNotEnabledWarning
 string VNCReconnecting
 string VNCStarted
+string VideoRAM
+string VideoRAMtips
 string ViewLog
 string Volume
 string Warning
+string Watermark
 string WriteAccess
 string Yes
 string Yukaidi
@@ -2708,6 +2714,7 @@ string pauseVMWarning
 string paused
 string port_caption
 string preference_copied
+string qemuxhci
 string qmpExternalWarning
 string qmpServer
 string reassignDiskFilesInstructions
@@ -2759,6 +2766,8 @@ string ui
 string ui_mode
 string updates
 string usbctrl
+string usbehci
+string usbohci
 string use_keymapper
 string username_caption
 string username_hint

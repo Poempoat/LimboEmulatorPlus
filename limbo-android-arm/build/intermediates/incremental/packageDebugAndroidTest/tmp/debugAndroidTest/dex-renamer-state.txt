@@ -1,4 +1,0 @@
-#Sat Feb 03 18:47:47 CST 2024
-base.0=C\:\\Users\\liuji\\Documents\\LimboEmulatorPlus\\limbo-android-arm\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
-path.0=0/classes.dex
-renamed.0=classes.dex

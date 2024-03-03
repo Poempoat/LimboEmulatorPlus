@@ -439,5 +439,7 @@
     <string name="VideoRAM">显存（MB）</string>
     <string name="VideoRAMtips">只有std、cirrus、vmware显卡支持设置显存。cirrus显卡最大显存16MB，高于这个值会崩。</string>
     <string name="Watermark">哔哩哔哩 系统只因家</string>
+    <string name="CHANGELOG_OLD">历史更新日志</string>
+    <string name="OSLIST">操作系统</string>
 
 </resources>

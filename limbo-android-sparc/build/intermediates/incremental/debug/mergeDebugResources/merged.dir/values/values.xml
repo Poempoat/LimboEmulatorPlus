@@ -1054,9 +1054,12 @@
     <string name="VNCPasswordNotEnabledWarning">VNC Password is not enabled! Any application on your device can view and control your Virtual Machine! Make sure you trust your apps on your device otherwise set a password in settings. Continue?</string>
     <string name="VNCReconnecting">VNC Reconnecting</string>
     <string name="VNCStarted">VNC Started</string>
+    <string name="VideoRAM">Video Memory (MB)</string>
+    <string name="VideoRAMtips">Only std, cirrus, and vmware graphics cards allow adjusting video memory. For cirrus cards, the maximum supported video memory is 16MB, exceeding this limit could cause a crash.</string>
     <string name="ViewLog">View Log</string>
     <string name="Volume">Volume</string>
     <string name="Warning">Warning</string>
+    <string name="Watermark">Bilibili 系统只因家</string>
     <string name="WriteAccess">Write Access</string>
     <string name="Yes">Yes</string>
     <string name="Yukaidi" translatable="false">Yukaidi</string>
@@ -1145,7 +1148,7 @@
     <string name="devices">Devices</string>
     <string name="disableACPI">Disable ACPI</string>
     <string name="disableHPET">Disable HPET</string>
-    <string name="disableTSC">Enable AVX</string>
+    <string name="disableTSC">ISA Optimization</string>
     <string name="disableTSCInstructions">If your guest OS is not able to boot check option \'Disable TSC\' and restart the VM.</string>
     <string name="discardVMInstructions">The VM is Paused. If you discard the state you might lose data. Continue?</string>
     <string name="discardVMState">Discard VM State</string>
@@ -1320,6 +1323,7 @@
     <string name="preference_copied">
         \"<ns1:g example="Version 1.1" id="summary">%1$s</ns1:g>\" copied to clipboard.
     </string>
+    <string name="qemuxhci" translatable="false">qemu-xhci</string>
     <string name="qmpExternalWarning">Warning: Allowing QMP to serve external connections is NOT Recommended! QMP connections are Passwordless and Unencrypted therefore NOT secure. Make sure you\'re on a private network and you trust other apps installed in your device!\n</string>
     <string name="qmpServer">QMP server</string>
     <string name="reassignDiskFilesInstructions">If this is a new install you will need to re-open all disk files via the file manager</string>
@@ -1371,6 +1375,8 @@
     <string name="ui_mode">UI Mode</string>
     <string name="updates">Updates</string>
     <string name="usbctrl">USB Controller:</string>
+    <string name="usbehci" translatable="false">usb-ehci</string>
+    <string name="usbohci" translatable="false">usb-ohci</string>
     <string name="use_keymapper">Use Key Mapper</string>
     <string name="username_caption">Username</string>
     <string name="username_hint">For Windows Authentication</string>

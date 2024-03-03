@@ -99,6 +99,7 @@
     <string name="AudioCard">Audio Card</string>
     <string name="Auto">Auto</string>
     <string name="CHANGELOG">CHANGELOG</string>
+    <string name="CHANGELOG_OLD">Historical Changelog</string>
     <string name="CPUModel">CPU Model:</string>
     <string name="Cancel">Cancel</string>
     <string name="CannotDeletePreviousStateFile">Could not delete previous state file</string>
@@ -229,6 +230,7 @@
     <string name="NoRemovableDevicesAttached">No removable devices attached</string>
     <string name="NoVMSelectedRestart">No VM selected, restart Limbo Plus!</string>
     <string name="NotADirectory">Not a Directory</string>
+    <string name="OSLIST">Operating Systems</string>
     <string name="Ok">OK</string>
     <string name="OkIUnderstand">OK, I understand</string>
     <string name="Password">Password</string>

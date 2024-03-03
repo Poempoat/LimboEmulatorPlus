@@ -34,7 +34,6 @@
         android:largeHeap="true"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/limbo_circle"
-        android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
             android:name="com.limbo.emu.plus.arm.LimboEmuActivity"

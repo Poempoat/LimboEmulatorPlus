@@ -344,6 +344,7 @@ int string Audio 0x0
 int string AudioCard 0x0
 int string Auto 0x0
 int string CHANGELOG 0x0
+int string CHANGELOG_OLD 0x0
 int string CPUModel 0x0
 int string Cancel 0x0
 int string CannotDeletePreviousStateFile 0x0
@@ -474,6 +475,7 @@ int string NoMachineSelected 0x0
 int string NoRemovableDevicesAttached 0x0
 int string NoVMSelectedRestart 0x0
 int string NotADirectory 0x0
+int string OSLIST 0x0
 int string Ok 0x0
 int string OkIUnderstand 0x0
 int string Password 0x0

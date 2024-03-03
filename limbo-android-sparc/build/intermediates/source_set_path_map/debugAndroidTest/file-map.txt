@@ -1,4 +1,0 @@
-com.limbo.emu.plus.sparc.test.limbo-android-sparc-androidTest-0 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\build\generated\res\resValues\androidTest\debug
-com.limbo.emu.plus.sparc.test.limbo-android-sparc-mergeDebugAndroidTestResources-1 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.limbo.emu.plus.sparc.test.limbo-android-sparc-mergeDebugAndroidTestResources-2 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.limbo.emu.plus.sparc.test.limbo-android-sparc-merged_res-3 C:\Users\liuji\Documents\LimboEmulatorPlus\limbo-android-sparc\build\intermediates\merged_res\debugAndroidTest
