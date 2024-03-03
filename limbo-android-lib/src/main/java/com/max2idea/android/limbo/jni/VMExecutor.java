@@ -44,6 +44,7 @@ import org.json.JSONObject;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 
 
 /**
@@ -253,7 +254,7 @@ private String getQemuLibrary() {
     }
 
     private void addAudioOptions(ArrayList<String> paramsList) {
-        if (getSoundCard() != null) {
+        if (getSoundCard() != null && !Objects.equals(getSoundCard(), "无") && !Objects.equals(getSoundCard(), "None")) {
             paramsList.add("-soundhw");
             paramsList.add(getSoundCard());
         }
@@ -432,7 +433,7 @@ private String getQemuLibrary() {
             String nicParams = "nic";
             if (network.equals("tap"))
                 nicParams += ",vlan=0";
-            if (!networkCard.equals("Default"))
+            if (!networkCard.equals("Default") && !networkCard.equals("默认"))
                 nicParams += (",model=" + networkCard);
             paramsList.add(nicParams);
         }
