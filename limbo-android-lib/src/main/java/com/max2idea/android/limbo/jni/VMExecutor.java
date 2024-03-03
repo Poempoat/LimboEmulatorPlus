@@ -338,7 +338,7 @@ private String getQemuLibrary() {
                 else if (LimboApplication.arch == Config.Arch.x86_64)
                     cpu = "qemu64";
             }
-            cpu += ",-mmx,-3dnow,-sse2,-sse3,-sse4.1,-avx,-aes,-popcnt,-rdrand,-movbe,-rdtscp,-xsave,-xsaveopt,-xsaves,-xgetbv1,-fsgsbase,-avx512f,-avx512cd,-avx512dq,-avx512bw,-avx512vl,-avx512ifma,-avx512vbmi,-avx512vnni";
+            cpu += ",-mds-no,-fma,-pcid,-x2apic,-tsc-deadline,-avx,-f16c,-avx2,-invpcid,-avx512f,-avx512dq,-avx512cd,-avx512bw,-avx512vl,-rdseed,-avx512vnni,-spec-ctrl,-arch-capabilities,-ssbd,-3dnowprefetch,-xsavec,-rdctl-no,-ibrs-all,-skip-l1dfl-vmentry";
         }
 
         if (getMachine().getDisableAcpi() != 0) {

@@ -2,6 +2,7 @@
 Please visit the official site for English changelogs.
 更新完成后请清除应用数据才能正常使用！！！
 发布日期：2024/3/3
+·添加繁体中文（台湾）语言支持
 ·新增功能：显存设置（在显示卡选项下方）
 ·实装"USB控制器"选项
 ·添加virtio-gpu-pci显示卡
@@ -10,4 +11,5 @@ Please visit the official site for English changelogs.
 ·添加"操作系统"菜单选项
 ·美化"下载"窗口
 ·将之前的更新日志移动到"历史更新日志"
+·"操作系統"列表新增VirtIO和Windows精简版，移除"其它"
 ·完善一处遗漏的汉化（VM Running）

@@ -658,7 +658,7 @@ public class Machine extends Observable {
             cpu = "qemu64";
             machineType = "q35";
             networkCard = "Default";
-            disableTSC = 1;
+            disableTSC = 0;
         } else if (LimboApplication.arch == Config.Arch.arm || LimboApplication.arch == Config.Arch.arm64) {
             arch = "ARM";
             machineType = "versatilepb";

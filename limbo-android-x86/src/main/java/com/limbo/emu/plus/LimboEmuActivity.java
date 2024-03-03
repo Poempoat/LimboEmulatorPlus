@@ -51,6 +51,10 @@ public class LimboEmuActivity extends LimboActivity {
                 getString(R.string.WindowsDescr),
                 "https://pan.yukaidi.com/s/BwdySl",
                 LinksManager.LinkType.ISO));
+        Config.osImages.put("VirtIO", new LinksManager.LinkInfo("VirtIO",
+                getString(R.string.VirtIODescr),
+                "https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/latest-virtio/",
+                LinksManager.LinkType.TOOL));
         super.onCreate(bundle);
         //TODO: change location to something that the user will have access outside of limbo
         //  like internal storage

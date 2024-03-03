@@ -2980,10 +2980,10 @@ public class LimboActivity extends AppCompatActivity
     }
 
     private void addGenericOperatingSystems() {
-        Config.osImages.put(getString(R.string.other), new LinksManager.LinkInfo(getString(R.string.other),
+      /*  Config.osImages.put(getString(R.string.other), new LinksManager.LinkInfo(getString(R.string.other),
                 getString(R.string.otherOperatingSystem),
                 Config.otherOSLink,
-                LinksManager.LinkType.OTHER));
+                LinksManager.LinkType.OTHER)); */
                 Config.osImages.put(getString(R.string.custom), new LinksManager.LinkInfo(getString(R.string.custom),
                 getString(R.string.customOperatingSystem),
                 null,

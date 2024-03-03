@@ -124,6 +124,7 @@ public class Config {
 
     //Enable if you build with KVM support, needes android-21 platform
     public static boolean enableKVM = false;
+
     public static String storagedir = null;
     //Some OSes don't like emulated multi cores for QEMU 2.9.1 you can disable here
     /// thought there is also the Disable TSC feature so you don't have to do it here

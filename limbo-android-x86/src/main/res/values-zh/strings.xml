@@ -7,7 +7,7 @@
     <string name="DebianLinuxDescr">一个活跃的基于 Linux 的开源操作系统，具有桌面 GUI、音频、网络</string>
     <string name="Ubuntu">Ubuntu</string>
     <string name="UbuntuDescr">Ubuntu是基于Debian的Linux操作系统，以其用户友好的界面和开源基础而闻名</string>
-    <string name="Windows">Windows</string>
+    <string name="Windows">Windows精简版</string>
     <string name="WindowsDescr">Windows是由微软开发的广泛使用的操作系统，以其图形用户界面和与软件、硬件的广泛兼容性而著称</string>
     <string name="DSLLinux">DSL Linux</string>
     <string name="DSLLinuxDescr">An old open source light-weight OS with desktop gui, audio, network</string>
@@ -21,5 +21,6 @@
     <string name="SlaxLinuxDescr">An active open source OS with desktop gui, audio, network</string>
     <string name="SlitazLinux">Slitaz Linux</string>
     <string name="SlitazLinuxDescr">An active open source OS with desktop gui, audio, network</string>
+    <string name="VirtIODescr">"VirtIO 是一种用于虚拟化环境的标准化接口，为在 QEMU 上运行的 Windows 提供高性能的虚拟设备支持。  "</string>
 
 </resources>
