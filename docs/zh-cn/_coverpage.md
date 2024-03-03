@@ -2,7 +2,7 @@
 
 ![logo](/favicon.ico)
 
-# Limbo Emulator Plus <small>2.0.4</small>
+# Limbo Emulator Plus <small>2.0.5</small>
 
 > Limbo Emulator的二次开发版本。
 
