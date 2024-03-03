@@ -6,10 +6,11 @@ Please visit the official site for English changelogs.
 ·新增功能：显存设置（在显示卡选项下方）
 ·实装"USB控制器"选项
 ·添加virtio-gpu-pci显示卡
-·由于AVX在MTTCG模式下并不可用，将"启用AUX"改为"指令集优化"
+·由于AVX在MTTCG模式下并不可用，将"启用AVX"改为"指令集优化"
 ·更改"高级工具"和"Limbo Wiki"指向链接
 ·添加"操作系统"菜单选项
 ·美化"下载"窗口
 ·将之前的更新日志移动到"历史更新日志"
 ·"操作系統"列表新增VirtIO和Windows精简版，移除"其它"
 ·完善一处遗漏的汉化（VM Running）
+·修复检查更新器
