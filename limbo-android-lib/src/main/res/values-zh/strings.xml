@@ -441,5 +441,8 @@
     <string name="Watermark">哔哩哔哩 系统只因家</string>
     <string name="CHANGELOG_OLD">历史更新日志</string>
     <string name="OSLIST">操作系统</string>
+    <string name="CheckUpdate">检查更新</string>
+    <string name="NoUpdate">已是最新版本</string>
+    <string name="UpdateCheckFailed">无法获取更新（请多试几次）</string>
 
 </resources>

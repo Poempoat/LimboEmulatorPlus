@@ -33,9 +33,11 @@ import android.widget.TextView;
 
 import com.limbo.emu.lib.R;
 import com.max2idea.android.limbo.main.Config;
+import com.max2idea.android.limbo.main.LimboActivity;
 import com.max2idea.android.limbo.main.LimboApplication;
 import com.max2idea.android.limbo.main.LimboSettingsManager;
 import com.max2idea.android.limbo.network.NetworkUtils;
+import com.max2idea.android.limbo.updates.UpdateChecker;
 
 public class Help {
     private static final String TAG = "Help";
@@ -75,6 +77,21 @@ public class Help {
                 });
         alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, activity.getString(R.string.GoToWiki),
                 (dialog, which) -> NetworkUtils.openURL(activity, Config.guidesLink));
+
+        // 设置 Neutral 按钮
+        alertDialog.setButton(DialogInterface.BUTTON_NEUTRAL, activity.getString(R.string.CheckUpdate),
+                (dialog, which) -> {
+                    // 在新线程中检查更新
+                    Thread tsdl = new Thread(new Runnable() {
+                        public void run() {
+                            UpdateChecker.checkNewVersion(activity);
+                        }
+                    });
+                    tsdl.start();
+                    showHelp(activity);
+                });
+        Log.d(TAG, "Go to Updatechecker");
+
         alertDialog.show();
     }
 }

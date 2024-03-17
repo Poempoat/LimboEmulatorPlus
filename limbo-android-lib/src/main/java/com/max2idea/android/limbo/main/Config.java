@@ -85,7 +85,8 @@ public class Config {
     public static final String kvmLink = "https://github.com/limboemu/limbo/wiki/KVM";
     public static final String faqLink = "https://github.com/limboemu/limbo/wiki/FAQ";
     public static final String toolsLink = "https://pan.yukaidi.com/s/qNEpt6";
-    public static final String newVersionLink = "https://raw.githubusercontent.com/Poempoat/LimboEmulatorPlus/master/VERSION";
+    // public static final String newVersionLink = "https://raw.githubusercontent.com/Poempoat/LimboEmulatorPlus/master/VERSION";
+     public static final String newVersionLink = "https://file.xtzyj.top/d/InfiniCloud/LimboPlusVer.txt?sign=WfQP26U_jRGpB4IxgvmKWVZmp4K_teKvUcsVs1k4gE0=:0";
     public static final String otherOSLink = "https://github.com/limboemu/limbo/wiki/Other-Operating-Systems";
 
     public static final boolean enableKeyboardLayoutOption = true;

@@ -30,13 +30,23 @@ import android.widget.TextView;
 
 import com.limbo.emu.lib.R;
 import com.max2idea.android.limbo.downloads.Downloads;
+import com.max2idea.android.limbo.links.LinksManager2;
 import com.max2idea.android.limbo.main.Config;
 import com.max2idea.android.limbo.main.LimboApplication;
 import com.max2idea.android.limbo.main.LimboSettingsManager;
 import com.max2idea.android.limbo.network.NetworkUtils;
+import com.max2idea.android.limbo.toast.ToastUtils;
 
 /** Software Update notifier for checking if a new version is published.
   */
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class UpdateChecker {
     private static final String TAG = "UpdateChecker";
 
@@ -46,7 +56,8 @@ public class UpdateChecker {
         }
 
         try {
-            byte[] streamData = NetworkUtils.getContentFromUrl(Config.newVersionLink);
+            byte[] streamData = getContentFromUrl(Config.newVersionLink);
+            Log.d(TAG, "update");
             final String versionStr = new String(streamData).trim();
             float version = Float.parseFloat(versionStr);
             String versionName = getVersionName(versionStr);
@@ -60,11 +71,31 @@ public class UpdateChecker {
                         promptNewVersion(activity, finalVersionName);
                     }
                 });
+            } else {
+                ToastUtils.toastShort(activity, activity.getString(R.string.NoUpdate));
             }
         } catch (Exception ex) {
+            ToastUtils.toastShort(activity, activity.getString(R.string.UpdateCheckFailed));
             Log.w(TAG, "Could not get new version: " + ex.getMessage());
             if (Config.debug)
                 ex.printStackTrace();
+        }
+    }
+
+    private static byte[] getContentFromUrl(String urlString) throws IOException {
+        URL url = new URL(urlString);
+        HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+        try {
+            InputStream inputStream = urlConnection.getInputStream();
+            byte[] buffer = new byte[1024];
+            int bytesRead;
+            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+            while ((bytesRead = inputStream.read(buffer)) != -1) {
+                outputStream.write(buffer, 0, bytesRead);
+            }
+            return outputStream.toByteArray();
+        } finally {
+            urlConnection.disconnect();
         }
     }
 
@@ -81,7 +112,6 @@ public class UpdateChecker {
     }
 
     public static void promptNewVersion(final Activity activity, String version) {
-
         final AlertDialog alertDialog;
         alertDialog = new AlertDialog.Builder(activity).create();
         alertDialog.setTitle(activity.getString(R.string.NewVersion) + " " + version);
@@ -92,17 +122,15 @@ public class UpdateChecker {
         alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, activity.getString(R.string.GenNewVersion),
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        com.max2idea.android.limbo.downloads.Downloads.showDownloads(activity);
+                        LinksManager2 manager = new LinksManager2(activity);
+                        manager.show();
                     }
                 });
-        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, activity.getString(R.string.DoNotShowAgain),
+        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, activity.getString(R.string.Cancel),
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        LimboSettingsManager.setPromptUpdateVersion(activity, false);
-
                     }
                 });
         alertDialog.show();
-
     }
 }

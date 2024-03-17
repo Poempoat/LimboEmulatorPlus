@@ -454,4 +454,7 @@
     <string name="Watermark">Bilibili 系统只因家</string>
     <string name="CHANGELOG_OLD">Historical Changelog</string>
     <string name="OSLIST">Operating Systems</string>
+    <string name="CheckUpdate">Check Update</string>
+    <string name="NoUpdate">You are already on the latest version</string>
+    <string name="UpdateCheckFailed">Could not get new version</string>
 </resources>
