@@ -1,2 +1,12 @@
 * Limbo Emulator Plus 2.0.6-x86 更新日志（简体中文/zh_CN）
 Please visit the official site for English changelogs.
+注：发现什么bug请卸载重装尝试后再来报告问题！
+发布日期：2024/3/17
+·新增已分区磁盘
+·新增检查更新按钮
+·修复某些情况下点击启动按钮无反应的bug
+·固定TCG缓存大小为4G
+·修复下载更新时仍弹出旧版下载窗口的bug
+·按键映射器高级按钮列表添加 Windows徽标键、BackSpace、Del、Caps 按键
+·修复按键映射器鼠标事件不生效的bug
+·修复了关闭历史更新日志窗口是同时关闭更新日志窗口的bug

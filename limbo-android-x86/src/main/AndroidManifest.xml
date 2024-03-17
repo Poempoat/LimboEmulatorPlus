@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:versionCode="20005"
-    android:versionName="2.0.5-x86">
+    android:versionCode="20006"
+    android:versionName="2.0.6-x86">
 
     <application
         tools:replace="android:label"
-        android:label="Limbo Emulator Plus x86"
+        android:label="Limbo Plus x86"
         >
         <activity
             android:name="com.limbo.emu.plus.LimboEmuActivity"

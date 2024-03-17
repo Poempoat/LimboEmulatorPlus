@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.limbo.emu.plus",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 20006,
+      "versionName": "2.0.6-x86",
+      "outputFile": "limbo-android-x86-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

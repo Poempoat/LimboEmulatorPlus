@@ -12,7 +12,20 @@
         <State />
       </entry>
       <entry key="limbo-android-x86">
-        <State />
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="SERIAL_NUMBER" />
+                  <value value="127.0.0.1:58526" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-03-17T07:28:27.232332800Z" />
+        </State>
       </entry>
     </value>
   </component>

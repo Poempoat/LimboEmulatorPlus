@@ -18,6 +18,8 @@ Copyright (C) Max Kastanas 2012
  */
 package com.max2idea.android.limbo.updates;
 
+import static com.max2idea.android.limbo.help.Help.isButtonCheck;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -51,7 +53,7 @@ public class UpdateChecker {
     private static final String TAG = "UpdateChecker";
 
     public static void checkNewVersion(final Activity activity) {
-        if (!LimboSettingsManager.getPromptUpdateVersion(activity)) {
+        if (!LimboSettingsManager.getPromptUpdateVersion(activity) || isButtonCheck == 0) {
             return;
         }
 
@@ -80,6 +82,7 @@ public class UpdateChecker {
             if (Config.debug)
                 ex.printStackTrace();
         }
+        isButtonCheck = 0;
     }
 
     private static byte[] getContentFromUrl(String urlString) throws IOException {

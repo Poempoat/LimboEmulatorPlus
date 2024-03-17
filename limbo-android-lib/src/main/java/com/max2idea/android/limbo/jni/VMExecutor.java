@@ -290,7 +290,7 @@ private String getQemuLibrary() {
         }
 
         if (Config.overrideTbSize) {
-            paramsList.add("-tb-size");
+            paramsList.add("-Ftb-size");
             paramsList.add(Config.tbSize); //Don't increase it crashes
         }
 
@@ -370,9 +370,9 @@ private String getQemuLibrary() {
             paramsList.add("-accel");
             String tcgParams = "tcg";
             if (getMachine().getEnableMTTCG() != 0) {
-                tcgParams += ",thread=multi,tb-size=" + getMachine().getMemory();
+                tcgParams += ",thread=multi,tb-size=4096";
             } else {
-                tcgParams += ",thread=single,tb-size=" + getMachine().getMemory();
+                tcgParams += ",thread=single,tb-size=4096";
             }
             paramsList.add(tcgParams);
         }
@@ -581,7 +581,7 @@ private String getQemuLibrary() {
 
     public String getDriveFilePath(String driveFilePath) {
         String imgPath = driveFilePath;
-        if (imgPath == null || imgPath.equals("None"))
+        if (imgPath == null || (imgPath.equals("None") || imgPath.equals("无")))
             return null;
         imgPath = FileUtils.encodeDocumentFilePath(imgPath);
         return imgPath;

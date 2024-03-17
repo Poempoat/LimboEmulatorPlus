@@ -39,6 +39,7 @@ import com.max2idea.android.limbo.main.LimboSettingsManager;
 import com.max2idea.android.limbo.network.NetworkUtils;
 import com.max2idea.android.limbo.updates.UpdateChecker;
 
+
 public class Help {
     private static final String TAG = "Help";
 
@@ -81,7 +82,9 @@ public class Help {
         // 设置 Neutral 按钮
         alertDialog.setButton(DialogInterface.BUTTON_NEUTRAL, activity.getString(R.string.CheckUpdate),
                 (dialog, which) -> {
+                    LimboSettingsManager.setPromptUpdateVersion(activity, true);
                     // 在新线程中检查更新
+                    isButtonCheck = 1;
                     Thread tsdl = new Thread(new Runnable() {
                         public void run() {
                             UpdateChecker.checkNewVersion(activity);
@@ -94,4 +97,6 @@ public class Help {
 
         alertDialog.show();
     }
+
+    public static int isButtonCheck = 0;
 }

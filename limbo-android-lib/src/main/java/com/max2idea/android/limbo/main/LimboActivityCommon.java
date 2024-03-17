@@ -361,7 +361,12 @@ public class LimboActivityCommon {
             view.addView(textView);
             alertDialog.setView(view);
             alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, activity.getString(android.R.string.ok),
-                    (DialogInterface.OnClickListener) null);
+                    new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            showChangelog(activity);
+                        }
+                    });
             alertDialog.show();
         } catch (IOException e) {
             e.printStackTrace();
