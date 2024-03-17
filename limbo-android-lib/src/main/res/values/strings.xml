@@ -457,4 +457,6 @@
     <string name="CheckUpdate">Check Update</string>
     <string name="NoUpdate">You are already on the latest version</string>
     <string name="UpdateCheckFailed">Could not get new version</string>
+    <string name="FAT32">(FAT32)</string>
+    <string name="NeedNTFS">Need NTFS?</string>
 </resources>

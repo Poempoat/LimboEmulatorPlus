@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Build;
 import android.os.Bundle;
@@ -2273,7 +2274,7 @@ public class LimboActivity extends AppCompatActivity
         LinearLayout.LayoutParams spinnerParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
 
-        String[] arraySpinner = new String[10];
+        String[] arraySpinner = new String[20];
         arraySpinner[0] = "1GB" + activity.getString(R.string.growable);
         arraySpinner[1] = "2GB" + activity.getString(R.string.growable);
         arraySpinner[2] = "4GB" + activity.getString(R.string.growable);
@@ -2284,6 +2285,29 @@ public class LimboActivity extends AppCompatActivity
         arraySpinner[7] = "128GB" + activity.getString(R.string.growable);
         arraySpinner[8] = "256GB" + activity.getString(R.string.growable);
         arraySpinner[9] = "512GB" + activity.getString(R.string.growable);
+        arraySpinner[10] = "1GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[11] = "2GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[12] = "4GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[13] = "10GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[14] = "20GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[15] = "32GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[16] = "64GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[17] = "128GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[18] = "256GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+        arraySpinner[19] = "512GB" + activity.getString(R.string.FAT32) + activity.getString(R.string.growable);
+
+        TextView textView = new TextView(this);
+        textView.setText(R.string.NeedNTFS);
+        textView.setClickable(true);
+        textView.setTextColor(Color.GREEN);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                NetworkUtils.openURL(activity, Config.QemuPartitionedQcow2Link);
+            }
+        });
+        mLayout.addView(textView);
+
 
         ArrayAdapter<?> sizeAdapter = new ArrayAdapter<Object>(this, R.layout.custom_spinner_item, arraySpinner);
         sizeAdapter.setDropDownViewResource(R.layout.custom_spinner_dropdown_item);
@@ -2294,6 +2318,7 @@ public class LimboActivity extends AppCompatActivity
 
         alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, getString(R.string.Create), (DialogInterface.OnClickListener) null);
         alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, getString(R.string.ChangeDirectory), (DialogInterface.OnClickListener) null);
+
 
         alertDialog.show();
 
@@ -2329,6 +2354,26 @@ public class LimboActivity extends AppCompatActivity
                     templateImage = "hd256g.qcow2";
                 } else if (sizeSel == 9) {
                     templateImage = "hd512g.qcow2";
+                } else if (sizeSel == 10) {
+                    templateImage = "hdfat1g.qcow2";
+                } else if (sizeSel == 11) {
+                    templateImage = "hdfat2g.qcow2";
+                } else if (sizeSel == 12) {
+                    templateImage = "hdfat4g.qcow2";
+                } else if (sizeSel == 13) {
+                    templateImage = "hdfat10g.qcow2";
+                } else if (sizeSel == 14) {
+                    templateImage = "hdfat20g.qcow2";
+                } else if (sizeSel == 15) {
+                    templateImage = "hdfat32g.qcow2";
+                } else if (sizeSel == 16) {
+                    templateImage = "hdfat64g.qcow2";
+                } else if (sizeSel == 17) {
+                    templateImage = "hdfat128g.qcow2";
+                } else if (sizeSel == 18) {
+                    templateImage = "hdfat256g.qcow2";
+                } else if (sizeSel == 19) {
+                    templateImage = "hdfat512g.qcow2";
                 }
 
                 String image = imageNameView.getText().toString();

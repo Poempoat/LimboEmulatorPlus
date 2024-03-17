@@ -82,6 +82,7 @@ public class Config {
 
     public static final String lanzouLink = "https://xtzyj.lanzouu.com/b02k2wazc";
     public static final String guidesLink = "https://limboplus.xtzyj.top";
+    public static final String QemuPartitionedQcow2Link = "https://github.com/Poempoat/QemuPartitionedQcow2";
     public static final String kvmLink = "https://github.com/limboemu/limbo/wiki/KVM";
     public static final String faqLink = "https://github.com/limboemu/limbo/wiki/FAQ";
     public static final String toolsLink = "https://pan.yukaidi.com/s/qNEpt6";
