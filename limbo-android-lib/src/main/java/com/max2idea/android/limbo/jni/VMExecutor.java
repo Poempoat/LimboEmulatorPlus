@@ -290,7 +290,7 @@ private String getQemuLibrary() {
         }
 
         if (Config.overrideTbSize) {
-            paramsList.add("-Ftb-size");
+            paramsList.add("-tb-size");
             paramsList.add(Config.tbSize); //Don't increase it crashes
         }
 
